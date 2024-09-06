@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Library Files">
+      <UniqueIdentifier>{ccf9d115-ef58-4a15-a3f1-d031a8749b44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prscilla">
+      <UniqueIdentifier>{f4e869f9-d8e3-4338-9ff0-8fc30cd9ea8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wrapper">
+      <UniqueIdentifier>{26f186e7-c9b9-4fae-8864-198f25d3903a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AtaSmart.cpp">
+      <Filter>Library Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventLog.cpp">
+      <Filter>Library Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Priscilla\OsInfoFx.cpp">
+      <Filter>Prscilla</Filter>
+    </ClCompile>
+    <ClCompile Include="Priscilla\StaticFx.cpp">
+      <Filter>Prscilla</Filter>
+    </ClCompile>
+    <ClCompile Include="Priscilla\UtilityFx.cpp">
+      <Filter>Prscilla</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotSpeedGetter.cpp">
+      <Filter>Library Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NVMeInterpreter.cpp">
+      <Filter>Library Files</Filter>
+    </ClCompile>
+    <ClCompile Include="warpper\diskinfo.cpp">
+      <Filter>wrapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AtaSmart.h">
+      <Filter>Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DnpService.h">
+      <Filter>Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventLog.h">
+      <Filter>Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SPTIUtil.h">
+      <Filter>Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StorageQuery.h">
+      <Filter>Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Priscilla\CommonFx.h">
+      <Filter>Prscilla</Filter>
+    </ClInclude>
+    <ClInclude Include="Priscilla\OsInfoFx.h">
+      <Filter>Prscilla</Filter>
+    </ClInclude>
+    <ClInclude Include="Priscilla\StaticFx.h">
+      <Filter>Prscilla</Filter>
+    </ClInclude>
+    <ClInclude Include="Priscilla\UtilityFx.h">
+      <Filter>Prscilla</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotSpeedGetter.h">
+      <Filter>Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NVMeInterpreter.h">
+      <Filter>Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMicronUsbRaidDef.h">
+      <Filter>Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CompileOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMicronUsbRaidInit.h">
+      <Filter>Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="warpper\diskinfo.h">
+      <Filter>wrapper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="warpper\diskinfo.def">
+      <Filter>wrapper</Filter>
+    </None>
+  </ItemGroup>
+</Project>

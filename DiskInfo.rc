@@ -1,0 +1,1450 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "CompileOptions.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 (日本) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)\r\n"
+    "LANGUAGE 17, 1\r\n"
+    "#pragma code_page(932)\r\n"
+    "#include ""res\\DiskInfo.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+#ifdef SUISHO_AOI_SUPPORT
+	IDR_MAINFRAME           ICON                "resA\\DiskInfo.ico"
+	IDI_MINI_ICON           ICON                "resA\\DiskInfo16.ico"
+#elif MSI_MEI_SUPPORT
+    IDR_MAINFRAME           ICON                "resM\\DiskInfo.ico"
+    IDI_MINI_ICON           ICON                "resM\\DiskInfo16.ico"
+#elif KUREI_KEI_SUPPORT
+    IDR_MAINFRAME           ICON                "resK\\DiskInfo.ico"
+    IDI_MINI_ICON           ICON                "resK\\DiskInfo16.ico"
+#elif SUISHO_SHIZUKU_SUPPORT  
+	IDR_MAINFRAME           ICON                "resS\\DiskInfo.ico"
+	IDI_MINI_ICON           ICON                "resS\\DiskInfo16.ico"
+#else
+    IDR_MAINFRAME           ICON                "resN\\DiskInfo.ico"
+    IDI_MINI_ICON           ICON                "resN\\DiskInfo16.ico"
+#endif
+
+IDI_GOOD                 ICON                    "res\\good.ico"
+IDI_GOOD_GREEN           ICON                    "res\\goodGreen.ico"
+IDI_CAUTION              ICON                    "res\\caution.ico"
+IDI_BAD                  ICON                    "res\\bad.ico"
+IDI_UNKNOWN              ICON                    "res\\unknown.ico"
+
+IDI_TEMP_BC01            ICON                    "res\\B001.ico"
+IDI_TEMP_BC02            ICON                    "res\\B002.ico"
+IDI_TEMP_BC03            ICON                    "res\\B003.ico"
+IDI_TEMP_BC04            ICON                    "res\\B004.ico"
+IDI_TEMP_BC05            ICON                    "res\\B005.ico"
+IDI_TEMP_BC06            ICON                    "res\\B006.ico"
+IDI_TEMP_BC07            ICON                    "res\\B007.ico"
+IDI_TEMP_BC08            ICON                    "res\\B008.ico"
+IDI_TEMP_BC09            ICON                    "res\\B009.ico"
+IDI_TEMP_BC10            ICON                    "res\\B010.ico"
+IDI_TEMP_BC11            ICON                    "res\\B011.ico"
+IDI_TEMP_BC12            ICON                    "res\\B012.ico"
+IDI_TEMP_BC13            ICON                    "res\\B013.ico"
+IDI_TEMP_BC14            ICON                    "res\\B014.ico"
+IDI_TEMP_BC15            ICON                    "res\\B015.ico"
+IDI_TEMP_BC16            ICON                    "res\\B016.ico"
+IDI_TEMP_BC17            ICON                    "res\\B017.ico"
+IDI_TEMP_BC18            ICON                    "res\\B018.ico"
+IDI_TEMP_BC19            ICON                    "res\\B019.ico"
+IDI_TEMP_BC20            ICON                    "res\\B020.ico"
+IDI_TEMP_BC21            ICON                    "res\\B021.ico"
+IDI_TEMP_BC22            ICON                    "res\\B022.ico"
+IDI_TEMP_BC23            ICON                    "res\\B023.ico"
+IDI_TEMP_BC24            ICON                    "res\\B024.ico"
+IDI_TEMP_BC25            ICON                    "res\\B025.ico"
+IDI_TEMP_BC26            ICON                    "res\\B026.ico"
+IDI_TEMP_BC27            ICON                    "res\\B027.ico"
+IDI_TEMP_BC28            ICON                    "res\\B028.ico"
+IDI_TEMP_BC29            ICON                    "res\\B029.ico"
+IDI_TEMP_BC30            ICON                    "res\\B030.ico"
+IDI_TEMP_BC31            ICON                    "res\\B031.ico"
+IDI_TEMP_BC32            ICON                    "res\\B032.ico"
+IDI_TEMP_BC33            ICON                    "res\\B033.ico"
+IDI_TEMP_BC34            ICON                    "res\\B034.ico"
+IDI_TEMP_BC35            ICON                    "res\\B035.ico"
+IDI_TEMP_BC36            ICON                    "res\\B036.ico"
+IDI_TEMP_BC37            ICON                    "res\\B037.ico"
+IDI_TEMP_BC38            ICON                    "res\\B038.ico"
+IDI_TEMP_BC39            ICON                    "res\\B039.ico"
+IDI_TEMP_BC40            ICON                    "res\\B040.ico"
+IDI_TEMP_BC41            ICON                    "res\\B041.ico"
+IDI_TEMP_BC42            ICON                    "res\\B042.ico"
+IDI_TEMP_BC43            ICON                    "res\\B043.ico"
+IDI_TEMP_BC44            ICON                    "res\\B044.ico"
+IDI_TEMP_BC45            ICON                    "res\\B045.ico"
+IDI_TEMP_BC46            ICON                    "res\\B046.ico"
+IDI_TEMP_BC47            ICON                    "res\\B047.ico"
+IDI_TEMP_BC48            ICON                    "res\\B048.ico"
+IDI_TEMP_BC49            ICON                    "res\\B049.ico"
+IDI_TEMP_BC50            ICON                    "res\\B050.ico"
+IDI_TEMP_BC51            ICON                    "res\\B051.ico"
+IDI_TEMP_BC52            ICON                    "res\\B052.ico"
+IDI_TEMP_BC53            ICON                    "res\\B053.ico"
+IDI_TEMP_BC54            ICON                    "res\\B054.ico"
+IDI_TEMP_BC55            ICON                    "res\\B055.ico"
+IDI_TEMP_BC56            ICON                    "res\\B056.ico"
+IDI_TEMP_BC57            ICON                    "res\\B057.ico"
+IDI_TEMP_BC58            ICON                    "res\\B058.ico"
+IDI_TEMP_BC59            ICON                    "res\\B059.ico"
+IDI_TEMP_BC60            ICON                    "res\\B060.ico"
+IDI_TEMP_BC61            ICON                    "res\\B061.ico"
+IDI_TEMP_BC62            ICON                    "res\\B062.ico"
+IDI_TEMP_BC63            ICON                    "res\\B063.ico"
+IDI_TEMP_BC64            ICON                    "res\\B064.ico"
+IDI_TEMP_BC65            ICON                    "res\\B065.ico"
+IDI_TEMP_BC66            ICON                    "res\\B066.ico"
+IDI_TEMP_BC67            ICON                    "res\\B067.ico"
+IDI_TEMP_BC68            ICON                    "res\\B068.ico"
+IDI_TEMP_BC69            ICON                    "res\\B069.ico"
+IDI_TEMP_BC70            ICON                    "res\\B070.ico"
+IDI_TEMP_BC71            ICON                    "res\\B071.ico"
+IDI_TEMP_BC72            ICON                    "res\\B072.ico"
+IDI_TEMP_BC73            ICON                    "res\\B073.ico"
+IDI_TEMP_BC74            ICON                    "res\\B074.ico"
+IDI_TEMP_BC75            ICON                    "res\\B075.ico"
+IDI_TEMP_BC76            ICON                    "res\\B076.ico"
+IDI_TEMP_BC77            ICON                    "res\\B077.ico"
+IDI_TEMP_BC78            ICON                    "res\\B078.ico"
+IDI_TEMP_BC79            ICON                    "res\\B079.ico"
+IDI_TEMP_BC80            ICON                    "res\\B080.ico"
+IDI_TEMP_BC81            ICON                    "res\\B081.ico"
+IDI_TEMP_BC82            ICON                    "res\\B082.ico"
+IDI_TEMP_BC83            ICON                    "res\\B083.ico"
+IDI_TEMP_BC84            ICON                    "res\\B084.ico"
+IDI_TEMP_BC85            ICON                    "res\\B085.ico"
+IDI_TEMP_BC86            ICON                    "res\\B086.ico"
+IDI_TEMP_BC87            ICON                    "res\\B087.ico"
+IDI_TEMP_BC88            ICON                    "res\\B088.ico"
+IDI_TEMP_BC89            ICON                    "res\\B089.ico"
+IDI_TEMP_BC90            ICON                    "res\\B090.ico"
+IDI_TEMP_BC91            ICON                    "res\\B091.ico"
+IDI_TEMP_BC92            ICON                    "res\\B092.ico"
+IDI_TEMP_BC93            ICON                    "res\\B093.ico"
+IDI_TEMP_BC94            ICON                    "res\\B094.ico"
+IDI_TEMP_BC95            ICON                    "res\\B095.ico"
+IDI_TEMP_BC96            ICON                    "res\\B096.ico"
+IDI_TEMP_BC97            ICON                    "res\\B097.ico"
+IDI_TEMP_BC98            ICON                    "res\\B098.ico"
+IDI_TEMP_BC99            ICON                    "res\\B099.ico"
+IDI_TEMP_GC01            ICON                    "res\\G001.ico"
+IDI_TEMP_GC02            ICON                    "res\\G002.ico"
+IDI_TEMP_GC03            ICON                    "res\\G003.ico"
+IDI_TEMP_GC04            ICON                    "res\\G004.ico"
+IDI_TEMP_GC05            ICON                    "res\\G005.ico"
+IDI_TEMP_GC06            ICON                    "res\\G006.ico"
+IDI_TEMP_GC07            ICON                    "res\\G007.ico"
+IDI_TEMP_GC08            ICON                    "res\\G008.ico"
+IDI_TEMP_GC09            ICON                    "res\\G009.ico"
+IDI_TEMP_GC10            ICON                    "res\\G010.ico"
+IDI_TEMP_GC11            ICON                    "res\\G011.ico"
+IDI_TEMP_GC12            ICON                    "res\\G012.ico"
+IDI_TEMP_GC13            ICON                    "res\\G013.ico"
+IDI_TEMP_GC14            ICON                    "res\\G014.ico"
+IDI_TEMP_GC15            ICON                    "res\\G015.ico"
+IDI_TEMP_GC16            ICON                    "res\\G016.ico"
+IDI_TEMP_GC17            ICON                    "res\\G017.ico"
+IDI_TEMP_GC18            ICON                    "res\\G018.ico"
+IDI_TEMP_GC19            ICON                    "res\\G019.ico"
+IDI_TEMP_GC20            ICON                    "res\\G020.ico"
+IDI_TEMP_GC21            ICON                    "res\\G021.ico"
+IDI_TEMP_GC22            ICON                    "res\\G022.ico"
+IDI_TEMP_GC23            ICON                    "res\\G023.ico"
+IDI_TEMP_GC24            ICON                    "res\\G024.ico"
+IDI_TEMP_GC25            ICON                    "res\\G025.ico"
+IDI_TEMP_GC26            ICON                    "res\\G026.ico"
+IDI_TEMP_GC27            ICON                    "res\\G027.ico"
+IDI_TEMP_GC28            ICON                    "res\\G028.ico"
+IDI_TEMP_GC29            ICON                    "res\\G029.ico"
+IDI_TEMP_GC30            ICON                    "res\\G030.ico"
+IDI_TEMP_GC31            ICON                    "res\\G031.ico"
+IDI_TEMP_GC32            ICON                    "res\\G032.ico"
+IDI_TEMP_GC33            ICON                    "res\\G033.ico"
+IDI_TEMP_GC34            ICON                    "res\\G034.ico"
+IDI_TEMP_GC35            ICON                    "res\\G035.ico"
+IDI_TEMP_GC36            ICON                    "res\\G036.ico"
+IDI_TEMP_GC37            ICON                    "res\\G037.ico"
+IDI_TEMP_GC38            ICON                    "res\\G038.ico"
+IDI_TEMP_GC39            ICON                    "res\\G039.ico"
+IDI_TEMP_GC40            ICON                    "res\\G040.ico"
+IDI_TEMP_GC41            ICON                    "res\\G041.ico"
+IDI_TEMP_GC42            ICON                    "res\\G042.ico"
+IDI_TEMP_GC43            ICON                    "res\\G043.ico"
+IDI_TEMP_GC44            ICON                    "res\\G044.ico"
+IDI_TEMP_GC45            ICON                    "res\\G045.ico"
+IDI_TEMP_GC46            ICON                    "res\\G046.ico"
+IDI_TEMP_GC47            ICON                    "res\\G047.ico"
+IDI_TEMP_GC48            ICON                    "res\\G048.ico"
+IDI_TEMP_GC49            ICON                    "res\\G049.ico"
+IDI_TEMP_GC50            ICON                    "res\\G050.ico"
+IDI_TEMP_GC51            ICON                    "res\\G051.ico"
+IDI_TEMP_GC52            ICON                    "res\\G052.ico"
+IDI_TEMP_GC53            ICON                    "res\\G053.ico"
+IDI_TEMP_GC54            ICON                    "res\\G054.ico"
+IDI_TEMP_GC55            ICON                    "res\\G055.ico"
+IDI_TEMP_GC56            ICON                    "res\\G056.ico"
+IDI_TEMP_GC57            ICON                    "res\\G057.ico"
+IDI_TEMP_GC58            ICON                    "res\\G058.ico"
+IDI_TEMP_GC59            ICON                    "res\\G059.ico"
+IDI_TEMP_GC60            ICON                    "res\\G060.ico"
+IDI_TEMP_GC61            ICON                    "res\\G061.ico"
+IDI_TEMP_GC62            ICON                    "res\\G062.ico"
+IDI_TEMP_GC63            ICON                    "res\\G063.ico"
+IDI_TEMP_GC64            ICON                    "res\\G064.ico"
+IDI_TEMP_GC65            ICON                    "res\\G065.ico"
+IDI_TEMP_GC66            ICON                    "res\\G066.ico"
+IDI_TEMP_GC67            ICON                    "res\\G067.ico"
+IDI_TEMP_GC68            ICON                    "res\\G068.ico"
+IDI_TEMP_GC69            ICON                    "res\\G069.ico"
+IDI_TEMP_GC70            ICON                    "res\\G070.ico"
+IDI_TEMP_GC71            ICON                    "res\\G071.ico"
+IDI_TEMP_GC72            ICON                    "res\\G072.ico"
+IDI_TEMP_GC73            ICON                    "res\\G073.ico"
+IDI_TEMP_GC74            ICON                    "res\\G074.ico"
+IDI_TEMP_GC75            ICON                    "res\\G075.ico"
+IDI_TEMP_GC76            ICON                    "res\\G076.ico"
+IDI_TEMP_GC77            ICON                    "res\\G077.ico"
+IDI_TEMP_GC78            ICON                    "res\\G078.ico"
+IDI_TEMP_GC79            ICON                    "res\\G079.ico"
+IDI_TEMP_GC80            ICON                    "res\\G080.ico"
+IDI_TEMP_GC81            ICON                    "res\\G081.ico"
+IDI_TEMP_GC82            ICON                    "res\\G082.ico"
+IDI_TEMP_GC83            ICON                    "res\\G083.ico"
+IDI_TEMP_GC84            ICON                    "res\\G084.ico"
+IDI_TEMP_GC85            ICON                    "res\\G085.ico"
+IDI_TEMP_GC86            ICON                    "res\\G086.ico"
+IDI_TEMP_GC87            ICON                    "res\\G087.ico"
+IDI_TEMP_GC88            ICON                    "res\\G088.ico"
+IDI_TEMP_GC89            ICON                    "res\\G089.ico"
+IDI_TEMP_GC90            ICON                    "res\\G090.ico"
+IDI_TEMP_GC91            ICON                    "res\\G091.ico"
+IDI_TEMP_GC92            ICON                    "res\\G092.ico"
+IDI_TEMP_GC93            ICON                    "res\\G093.ico"
+IDI_TEMP_GC94            ICON                    "res\\G094.ico"
+IDI_TEMP_GC95            ICON                    "res\\G095.ico"
+IDI_TEMP_GC96            ICON                    "res\\G096.ico"
+IDI_TEMP_GC97            ICON                    "res\\G097.ico"
+IDI_TEMP_GC98            ICON                    "res\\G098.ico"
+IDI_TEMP_GC99            ICON                    "res\\G099.ico"
+IDI_TEMP_RC01            ICON                    "res\\R001.ico"
+IDI_TEMP_RC02            ICON                    "res\\R002.ico"
+IDI_TEMP_RC03            ICON                    "res\\R003.ico"
+IDI_TEMP_RC04            ICON                    "res\\R004.ico"
+IDI_TEMP_RC05            ICON                    "res\\R005.ico"
+IDI_TEMP_RC06            ICON                    "res\\R006.ico"
+IDI_TEMP_RC07            ICON                    "res\\R007.ico"
+IDI_TEMP_RC08            ICON                    "res\\R008.ico"
+IDI_TEMP_RC09            ICON                    "res\\R009.ico"
+IDI_TEMP_RC10            ICON                    "res\\R010.ico"
+IDI_TEMP_RC11            ICON                    "res\\R011.ico"
+IDI_TEMP_RC12            ICON                    "res\\R012.ico"
+IDI_TEMP_RC13            ICON                    "res\\R013.ico"
+IDI_TEMP_RC14            ICON                    "res\\R014.ico"
+IDI_TEMP_RC15            ICON                    "res\\R015.ico"
+IDI_TEMP_RC16            ICON                    "res\\R016.ico"
+IDI_TEMP_RC17            ICON                    "res\\R017.ico"
+IDI_TEMP_RC18            ICON                    "res\\R018.ico"
+IDI_TEMP_RC19            ICON                    "res\\R019.ico"
+IDI_TEMP_RC20            ICON                    "res\\R020.ico"
+IDI_TEMP_RC21            ICON                    "res\\R021.ico"
+IDI_TEMP_RC22            ICON                    "res\\R022.ico"
+IDI_TEMP_RC23            ICON                    "res\\R023.ico"
+IDI_TEMP_RC24            ICON                    "res\\R024.ico"
+IDI_TEMP_RC25            ICON                    "res\\R025.ico"
+IDI_TEMP_RC26            ICON                    "res\\R026.ico"
+IDI_TEMP_RC27            ICON                    "res\\R027.ico"
+IDI_TEMP_RC28            ICON                    "res\\R028.ico"
+IDI_TEMP_RC29            ICON                    "res\\R029.ico"
+IDI_TEMP_RC30            ICON                    "res\\R030.ico"
+IDI_TEMP_RC31            ICON                    "res\\R031.ico"
+IDI_TEMP_RC32            ICON                    "res\\R032.ico"
+IDI_TEMP_RC33            ICON                    "res\\R033.ico"
+IDI_TEMP_RC34            ICON                    "res\\R034.ico"
+IDI_TEMP_RC35            ICON                    "res\\R035.ico"
+IDI_TEMP_RC36            ICON                    "res\\R036.ico"
+IDI_TEMP_RC37            ICON                    "res\\R037.ico"
+IDI_TEMP_RC38            ICON                    "res\\R038.ico"
+IDI_TEMP_RC39            ICON                    "res\\R039.ico"
+IDI_TEMP_RC40            ICON                    "res\\R040.ico"
+IDI_TEMP_RC41            ICON                    "res\\R041.ico"
+IDI_TEMP_RC42            ICON                    "res\\R042.ico"
+IDI_TEMP_RC43            ICON                    "res\\R043.ico"
+IDI_TEMP_RC44            ICON                    "res\\R044.ico"
+IDI_TEMP_RC45            ICON                    "res\\R045.ico"
+IDI_TEMP_RC46            ICON                    "res\\R046.ico"
+IDI_TEMP_RC47            ICON                    "res\\R047.ico"
+IDI_TEMP_RC48            ICON                    "res\\R048.ico"
+IDI_TEMP_RC49            ICON                    "res\\R049.ico"
+IDI_TEMP_RC50            ICON                    "res\\R050.ico"
+IDI_TEMP_RC51            ICON                    "res\\R051.ico"
+IDI_TEMP_RC52            ICON                    "res\\R052.ico"
+IDI_TEMP_RC53            ICON                    "res\\R053.ico"
+IDI_TEMP_RC54            ICON                    "res\\R054.ico"
+IDI_TEMP_RC55            ICON                    "res\\R055.ico"
+IDI_TEMP_RC56            ICON                    "res\\R056.ico"
+IDI_TEMP_RC57            ICON                    "res\\R057.ico"
+IDI_TEMP_RC58            ICON                    "res\\R058.ico"
+IDI_TEMP_RC59            ICON                    "res\\R059.ico"
+IDI_TEMP_RC60            ICON                    "res\\R060.ico"
+IDI_TEMP_RC61            ICON                    "res\\R061.ico"
+IDI_TEMP_RC62            ICON                    "res\\R062.ico"
+IDI_TEMP_RC63            ICON                    "res\\R063.ico"
+IDI_TEMP_RC64            ICON                    "res\\R064.ico"
+IDI_TEMP_RC65            ICON                    "res\\R065.ico"
+IDI_TEMP_RC66            ICON                    "res\\R066.ico"
+IDI_TEMP_RC67            ICON                    "res\\R067.ico"
+IDI_TEMP_RC68            ICON                    "res\\R068.ico"
+IDI_TEMP_RC69            ICON                    "res\\R069.ico"
+IDI_TEMP_RC70            ICON                    "res\\R070.ico"
+IDI_TEMP_RC71            ICON                    "res\\R071.ico"
+IDI_TEMP_RC72            ICON                    "res\\R072.ico"
+IDI_TEMP_RC73            ICON                    "res\\R073.ico"
+IDI_TEMP_RC74            ICON                    "res\\R074.ico"
+IDI_TEMP_RC75            ICON                    "res\\R075.ico"
+IDI_TEMP_RC76            ICON                    "res\\R076.ico"
+IDI_TEMP_RC77            ICON                    "res\\R077.ico"
+IDI_TEMP_RC78            ICON                    "res\\R078.ico"
+IDI_TEMP_RC79            ICON                    "res\\R079.ico"
+IDI_TEMP_RC80            ICON                    "res\\R080.ico"
+IDI_TEMP_RC81            ICON                    "res\\R081.ico"
+IDI_TEMP_RC82            ICON                    "res\\R082.ico"
+IDI_TEMP_RC83            ICON                    "res\\R083.ico"
+IDI_TEMP_RC84            ICON                    "res\\R084.ico"
+IDI_TEMP_RC85            ICON                    "res\\R085.ico"
+IDI_TEMP_RC86            ICON                    "res\\R086.ico"
+IDI_TEMP_RC87            ICON                    "res\\R087.ico"
+IDI_TEMP_RC88            ICON                    "res\\R088.ico"
+IDI_TEMP_RC89            ICON                    "res\\R089.ico"
+IDI_TEMP_RC90            ICON                    "res\\R090.ico"
+IDI_TEMP_RC91            ICON                    "res\\R091.ico"
+IDI_TEMP_RC92            ICON                    "res\\R092.ico"
+IDI_TEMP_RC93            ICON                    "res\\R093.ico"
+IDI_TEMP_RC94            ICON                    "res\\R094.ico"
+IDI_TEMP_RC95            ICON                    "res\\R095.ico"
+IDI_TEMP_RC96            ICON                    "res\\R096.ico"
+IDI_TEMP_RC97            ICON                    "res\\R097.ico"
+IDI_TEMP_RC98            ICON                    "res\\R098.ico"
+IDI_TEMP_RC99            ICON                    "res\\R099.ico"
+IDI_TEMP_BF01            ICON                    "res\\B033.ico"
+IDI_TEMP_BF02            ICON                    "res\\B035.ico"
+IDI_TEMP_BF03            ICON                    "res\\B037.ico"
+IDI_TEMP_BF04            ICON                    "res\\B039.ico"
+IDI_TEMP_BF05            ICON                    "res\\B041.ico"
+IDI_TEMP_BF06            ICON                    "res\\B042.ico"
+IDI_TEMP_BF07            ICON                    "res\\B044.ico"
+IDI_TEMP_BF08            ICON                    "res\\B046.ico"
+IDI_TEMP_BF09            ICON                    "res\\B048.ico"
+IDI_TEMP_BF10            ICON                    "res\\B050.ico"
+IDI_TEMP_BF11            ICON                    "res\\B051.ico"
+IDI_TEMP_BF12            ICON                    "res\\B053.ico"
+IDI_TEMP_BF13            ICON                    "res\\B055.ico"
+IDI_TEMP_BF14            ICON                    "res\\B057.ico"
+IDI_TEMP_BF15            ICON                    "res\\B059.ico"
+IDI_TEMP_BF16            ICON                    "res\\B060.ico"
+IDI_TEMP_BF17            ICON                    "res\\B062.ico"
+IDI_TEMP_BF18            ICON                    "res\\B064.ico"
+IDI_TEMP_BF19            ICON                    "res\\B066.ico"
+IDI_TEMP_BF20            ICON                    "res\\B068.ico"
+IDI_TEMP_BF21            ICON                    "res\\B069.ico"
+IDI_TEMP_BF22            ICON                    "res\\B071.ico"
+IDI_TEMP_BF23            ICON                    "res\\B073.ico"
+IDI_TEMP_BF24            ICON                    "res\\B075.ico"
+IDI_TEMP_BF25            ICON                    "res\\B077.ico"
+IDI_TEMP_BF26            ICON                    "res\\B078.ico"
+IDI_TEMP_BF27            ICON                    "res\\B080.ico"
+IDI_TEMP_BF28            ICON                    "res\\B082.ico"
+IDI_TEMP_BF29            ICON                    "res\\B084.ico"
+IDI_TEMP_BF30            ICON                    "res\\B086.ico"
+IDI_TEMP_BF31            ICON                    "res\\B087.ico"
+IDI_TEMP_BF32            ICON                    "res\\B089.ico"
+IDI_TEMP_BF33            ICON                    "res\\B091.ico"
+IDI_TEMP_BF34            ICON                    "res\\B093.ico"
+IDI_TEMP_BF35            ICON                    "res\\B095.ico"
+IDI_TEMP_BF36            ICON                    "res\\B096.ico"
+IDI_TEMP_BF37            ICON                    "res\\B098.ico"
+IDI_TEMP_BF38            ICON                    "res\\B100.ico"
+IDI_TEMP_BF39            ICON                    "res\\B102.ico"
+IDI_TEMP_BF40            ICON                    "res\\B104.ico"
+IDI_TEMP_BF41            ICON                    "res\\B105.ico"
+IDI_TEMP_BF42            ICON                    "res\\B107.ico"
+IDI_TEMP_BF43            ICON                    "res\\B109.ico"
+IDI_TEMP_BF44            ICON                    "res\\B111.ico"
+IDI_TEMP_BF45            ICON                    "res\\B113.ico"
+IDI_TEMP_BF46            ICON                    "res\\B114.ico"
+IDI_TEMP_BF47            ICON                    "res\\B116.ico"
+IDI_TEMP_BF48            ICON                    "res\\B118.ico"
+IDI_TEMP_BF49            ICON                    "res\\B120.ico"
+IDI_TEMP_BF50            ICON                    "res\\B122.ico"
+IDI_TEMP_BF51            ICON                    "res\\B123.ico"
+IDI_TEMP_BF52            ICON                    "res\\B125.ico"
+IDI_TEMP_BF53            ICON                    "res\\B127.ico"
+IDI_TEMP_BF54            ICON                    "res\\B129.ico"
+IDI_TEMP_BF55            ICON                    "res\\B131.ico"
+IDI_TEMP_BF56            ICON                    "res\\B132.ico"
+IDI_TEMP_BF57            ICON                    "res\\B134.ico"
+IDI_TEMP_BF58            ICON                    "res\\B136.ico"
+IDI_TEMP_BF59            ICON                    "res\\B138.ico"
+IDI_TEMP_BF60            ICON                    "res\\B140.ico"
+IDI_TEMP_BF61            ICON                    "res\\B141.ico"
+IDI_TEMP_BF62            ICON                    "res\\B143.ico"
+IDI_TEMP_BF63            ICON                    "res\\B145.ico"
+IDI_TEMP_BF64            ICON                    "res\\B147.ico"
+IDI_TEMP_BF65            ICON                    "res\\B149.ico"
+IDI_TEMP_BF66            ICON                    "res\\B150.ico"
+IDI_TEMP_BF67            ICON                    "res\\B152.ico"
+IDI_TEMP_BF68            ICON                    "res\\B154.ico"
+IDI_TEMP_BF69            ICON                    "res\\B156.ico"
+IDI_TEMP_BF70            ICON                    "res\\B158.ico"
+IDI_TEMP_BF71            ICON                    "res\\B159.ico"
+IDI_TEMP_BF72            ICON                    "res\\B161.ico"
+IDI_TEMP_BF73            ICON                    "res\\B163.ico"
+IDI_TEMP_BF74            ICON                    "res\\B165.ico"
+IDI_TEMP_BF75            ICON                    "res\\B167.ico"
+IDI_TEMP_BF76            ICON                    "res\\B168.ico"
+IDI_TEMP_BF77            ICON                    "res\\B170.ico"
+IDI_TEMP_BF78            ICON                    "res\\B172.ico"
+IDI_TEMP_BF79            ICON                    "res\\B174.ico"
+IDI_TEMP_BF80            ICON                    "res\\B176.ico"
+IDI_TEMP_BF81            ICON                    "res\\B177.ico"
+IDI_TEMP_BF82            ICON                    "res\\B179.ico"
+IDI_TEMP_BF83            ICON                    "res\\B181.ico"
+IDI_TEMP_BF84            ICON                    "res\\B183.ico"
+IDI_TEMP_BF85            ICON                    "res\\B185.ico"
+IDI_TEMP_BF86            ICON                    "res\\B186.ico"
+IDI_TEMP_BF87            ICON                    "res\\B188.ico"
+IDI_TEMP_BF88            ICON                    "res\\B190.ico"
+IDI_TEMP_BF89            ICON                    "res\\B192.ico"
+IDI_TEMP_BF90            ICON                    "res\\B194.ico"
+IDI_TEMP_BF91            ICON                    "res\\B195.ico"
+IDI_TEMP_BF92            ICON                    "res\\B197.ico"
+IDI_TEMP_BF93            ICON                    "res\\B199.ico"
+IDI_TEMP_BF94            ICON                    "res\\B201.ico"
+IDI_TEMP_BF95            ICON                    "res\\B203.ico"
+IDI_TEMP_BF96            ICON                    "res\\B204.ico"
+IDI_TEMP_BF97            ICON                    "res\\B206.ico"
+IDI_TEMP_BF98            ICON                    "res\\B208.ico"
+IDI_TEMP_BF99            ICON                    "res\\B210.ico"
+IDI_TEMP_GF01            ICON                    "res\\G033.ico"
+IDI_TEMP_GF02            ICON                    "res\\G035.ico"
+IDI_TEMP_GF03            ICON                    "res\\G037.ico"
+IDI_TEMP_GF04            ICON                    "res\\G039.ico"
+IDI_TEMP_GF05            ICON                    "res\\G041.ico"
+IDI_TEMP_GF06            ICON                    "res\\G042.ico"
+IDI_TEMP_GF07            ICON                    "res\\G044.ico"
+IDI_TEMP_GF08            ICON                    "res\\G046.ico"
+IDI_TEMP_GF09            ICON                    "res\\G048.ico"
+IDI_TEMP_GF10            ICON                    "res\\G050.ico"
+IDI_TEMP_GF11            ICON                    "res\\G051.ico"
+IDI_TEMP_GF12            ICON                    "res\\G053.ico"
+IDI_TEMP_GF13            ICON                    "res\\G055.ico"
+IDI_TEMP_GF14            ICON                    "res\\G057.ico"
+IDI_TEMP_GF15            ICON                    "res\\G059.ico"
+IDI_TEMP_GF16            ICON                    "res\\G060.ico"
+IDI_TEMP_GF17            ICON                    "res\\G062.ico"
+IDI_TEMP_GF18            ICON                    "res\\G064.ico"
+IDI_TEMP_GF19            ICON                    "res\\G066.ico"
+IDI_TEMP_GF20            ICON                    "res\\G068.ico"
+IDI_TEMP_GF21            ICON                    "res\\G069.ico"
+IDI_TEMP_GF22            ICON                    "res\\G071.ico"
+IDI_TEMP_GF23            ICON                    "res\\G073.ico"
+IDI_TEMP_GF24            ICON                    "res\\G075.ico"
+IDI_TEMP_GF25            ICON                    "res\\G077.ico"
+IDI_TEMP_GF26            ICON                    "res\\G078.ico"
+IDI_TEMP_GF27            ICON                    "res\\G080.ico"
+IDI_TEMP_GF28            ICON                    "res\\G082.ico"
+IDI_TEMP_GF29            ICON                    "res\\G084.ico"
+IDI_TEMP_GF30            ICON                    "res\\G086.ico"
+IDI_TEMP_GF31            ICON                    "res\\G087.ico"
+IDI_TEMP_GF32            ICON                    "res\\G089.ico"
+IDI_TEMP_GF33            ICON                    "res\\G091.ico"
+IDI_TEMP_GF34            ICON                    "res\\G093.ico"
+IDI_TEMP_GF35            ICON                    "res\\G095.ico"
+IDI_TEMP_GF36            ICON                    "res\\G096.ico"
+IDI_TEMP_GF37            ICON                    "res\\G098.ico"
+IDI_TEMP_GF38            ICON                    "res\\G100.ico"
+IDI_TEMP_GF39            ICON                    "res\\G102.ico"
+IDI_TEMP_GF40            ICON                    "res\\G104.ico"
+IDI_TEMP_GF41            ICON                    "res\\G105.ico"
+IDI_TEMP_GF42            ICON                    "res\\G107.ico"
+IDI_TEMP_GF43            ICON                    "res\\G109.ico"
+IDI_TEMP_GF44            ICON                    "res\\G111.ico"
+IDI_TEMP_GF45            ICON                    "res\\G113.ico"
+IDI_TEMP_GF46            ICON                    "res\\G114.ico"
+IDI_TEMP_GF47            ICON                    "res\\G116.ico"
+IDI_TEMP_GF48            ICON                    "res\\G118.ico"
+IDI_TEMP_GF49            ICON                    "res\\G120.ico"
+IDI_TEMP_GF50            ICON                    "res\\G122.ico"
+IDI_TEMP_GF51            ICON                    "res\\G123.ico"
+IDI_TEMP_GF52            ICON                    "res\\G125.ico"
+IDI_TEMP_GF53            ICON                    "res\\G127.ico"
+IDI_TEMP_GF54            ICON                    "res\\G129.ico"
+IDI_TEMP_GF55            ICON                    "res\\G131.ico"
+IDI_TEMP_GF56            ICON                    "res\\G132.ico"
+IDI_TEMP_GF57            ICON                    "res\\G134.ico"
+IDI_TEMP_GF58            ICON                    "res\\G136.ico"
+IDI_TEMP_GF59            ICON                    "res\\G138.ico"
+IDI_TEMP_GF60            ICON                    "res\\G140.ico"
+IDI_TEMP_GF61            ICON                    "res\\G141.ico"
+IDI_TEMP_GF62            ICON                    "res\\G143.ico"
+IDI_TEMP_GF63            ICON                    "res\\G145.ico"
+IDI_TEMP_GF64            ICON                    "res\\G147.ico"
+IDI_TEMP_GF65            ICON                    "res\\G149.ico"
+IDI_TEMP_GF66            ICON                    "res\\G150.ico"
+IDI_TEMP_GF67            ICON                    "res\\G152.ico"
+IDI_TEMP_GF68            ICON                    "res\\G154.ico"
+IDI_TEMP_GF69            ICON                    "res\\G156.ico"
+IDI_TEMP_GF70            ICON                    "res\\G158.ico"
+IDI_TEMP_GF71            ICON                    "res\\G159.ico"
+IDI_TEMP_GF72            ICON                    "res\\G161.ico"
+IDI_TEMP_GF73            ICON                    "res\\G163.ico"
+IDI_TEMP_GF74            ICON                    "res\\G165.ico"
+IDI_TEMP_GF75            ICON                    "res\\G167.ico"
+IDI_TEMP_GF76            ICON                    "res\\G168.ico"
+IDI_TEMP_GF77            ICON                    "res\\G170.ico"
+IDI_TEMP_GF78            ICON                    "res\\G172.ico"
+IDI_TEMP_GF79            ICON                    "res\\G174.ico"
+IDI_TEMP_GF80            ICON                    "res\\G176.ico"
+IDI_TEMP_GF81            ICON                    "res\\G177.ico"
+IDI_TEMP_GF82            ICON                    "res\\G179.ico"
+IDI_TEMP_GF83            ICON                    "res\\G181.ico"
+IDI_TEMP_GF84            ICON                    "res\\G183.ico"
+IDI_TEMP_GF85            ICON                    "res\\G185.ico"
+IDI_TEMP_GF86            ICON                    "res\\G186.ico"
+IDI_TEMP_GF87            ICON                    "res\\G188.ico"
+IDI_TEMP_GF88            ICON                    "res\\G190.ico"
+IDI_TEMP_GF89            ICON                    "res\\G192.ico"
+IDI_TEMP_GF90            ICON                    "res\\G194.ico"
+IDI_TEMP_GF91            ICON                    "res\\G195.ico"
+IDI_TEMP_GF92            ICON                    "res\\G197.ico"
+IDI_TEMP_GF93            ICON                    "res\\G199.ico"
+IDI_TEMP_GF94            ICON                    "res\\G201.ico"
+IDI_TEMP_GF95            ICON                    "res\\G203.ico"
+IDI_TEMP_GF96            ICON                    "res\\G204.ico"
+IDI_TEMP_GF97            ICON                    "res\\G206.ico"
+IDI_TEMP_GF98            ICON                    "res\\G208.ico"
+IDI_TEMP_GF99            ICON                    "res\\G210.ico"
+IDI_TEMP_RF01            ICON                    "res\\R033.ico"
+IDI_TEMP_RF02            ICON                    "res\\R035.ico"
+IDI_TEMP_RF03            ICON                    "res\\R037.ico"
+IDI_TEMP_RF04            ICON                    "res\\R039.ico"
+IDI_TEMP_RF05            ICON                    "res\\R041.ico"
+IDI_TEMP_RF06            ICON                    "res\\R042.ico"
+IDI_TEMP_RF07            ICON                    "res\\R044.ico"
+IDI_TEMP_RF08            ICON                    "res\\R046.ico"
+IDI_TEMP_RF09            ICON                    "res\\R048.ico"
+IDI_TEMP_RF10            ICON                    "res\\R050.ico"
+IDI_TEMP_RF11            ICON                    "res\\R051.ico"
+IDI_TEMP_RF12            ICON                    "res\\R053.ico"
+IDI_TEMP_RF13            ICON                    "res\\R055.ico"
+IDI_TEMP_RF14            ICON                    "res\\R057.ico"
+IDI_TEMP_RF15            ICON                    "res\\R059.ico"
+IDI_TEMP_RF16            ICON                    "res\\R060.ico"
+IDI_TEMP_RF17            ICON                    "res\\R062.ico"
+IDI_TEMP_RF18            ICON                    "res\\R064.ico"
+IDI_TEMP_RF19            ICON                    "res\\R066.ico"
+IDI_TEMP_RF20            ICON                    "res\\R068.ico"
+IDI_TEMP_RF21            ICON                    "res\\R069.ico"
+IDI_TEMP_RF22            ICON                    "res\\R071.ico"
+IDI_TEMP_RF23            ICON                    "res\\R073.ico"
+IDI_TEMP_RF24            ICON                    "res\\R075.ico"
+IDI_TEMP_RF25            ICON                    "res\\R077.ico"
+IDI_TEMP_RF26            ICON                    "res\\R078.ico"
+IDI_TEMP_RF27            ICON                    "res\\R080.ico"
+IDI_TEMP_RF28            ICON                    "res\\R082.ico"
+IDI_TEMP_RF29            ICON                    "res\\R084.ico"
+IDI_TEMP_RF30            ICON                    "res\\R086.ico"
+IDI_TEMP_RF31            ICON                    "res\\R087.ico"
+IDI_TEMP_RF32            ICON                    "res\\R089.ico"
+IDI_TEMP_RF33            ICON                    "res\\R091.ico"
+IDI_TEMP_RF34            ICON                    "res\\R093.ico"
+IDI_TEMP_RF35            ICON                    "res\\R095.ico"
+IDI_TEMP_RF36            ICON                    "res\\R096.ico"
+IDI_TEMP_RF37            ICON                    "res\\R098.ico"
+IDI_TEMP_RF38            ICON                    "res\\R100.ico"
+IDI_TEMP_RF39            ICON                    "res\\R102.ico"
+IDI_TEMP_RF40            ICON                    "res\\R104.ico"
+IDI_TEMP_RF41            ICON                    "res\\R105.ico"
+IDI_TEMP_RF42            ICON                    "res\\R107.ico"
+IDI_TEMP_RF43            ICON                    "res\\R109.ico"
+IDI_TEMP_RF44            ICON                    "res\\R111.ico"
+IDI_TEMP_RF45            ICON                    "res\\R113.ico"
+IDI_TEMP_RF46            ICON                    "res\\R114.ico"
+IDI_TEMP_RF47            ICON                    "res\\R116.ico"
+IDI_TEMP_RF48            ICON                    "res\\R118.ico"
+IDI_TEMP_RF49            ICON                    "res\\R120.ico"
+IDI_TEMP_RF50            ICON                    "res\\R122.ico"
+IDI_TEMP_RF51            ICON                    "res\\R123.ico"
+IDI_TEMP_RF52            ICON                    "res\\R125.ico"
+IDI_TEMP_RF53            ICON                    "res\\R127.ico"
+IDI_TEMP_RF54            ICON                    "res\\R129.ico"
+IDI_TEMP_RF55            ICON                    "res\\R131.ico"
+IDI_TEMP_RF56            ICON                    "res\\R132.ico"
+IDI_TEMP_RF57            ICON                    "res\\R134.ico"
+IDI_TEMP_RF58            ICON                    "res\\R136.ico"
+IDI_TEMP_RF59            ICON                    "res\\R138.ico"
+IDI_TEMP_RF60            ICON                    "res\\R140.ico"
+IDI_TEMP_RF61            ICON                    "res\\R141.ico"
+IDI_TEMP_RF62            ICON                    "res\\R143.ico"
+IDI_TEMP_RF63            ICON                    "res\\R145.ico"
+IDI_TEMP_RF64            ICON                    "res\\R147.ico"
+IDI_TEMP_RF65            ICON                    "res\\R149.ico"
+IDI_TEMP_RF66            ICON                    "res\\R150.ico"
+IDI_TEMP_RF67            ICON                    "res\\R152.ico"
+IDI_TEMP_RF68            ICON                    "res\\R154.ico"
+IDI_TEMP_RF69            ICON                    "res\\R156.ico"
+IDI_TEMP_RF70            ICON                    "res\\R158.ico"
+IDI_TEMP_RF71            ICON                    "res\\R159.ico"
+IDI_TEMP_RF72            ICON                    "res\\R161.ico"
+IDI_TEMP_RF73            ICON                    "res\\R163.ico"
+IDI_TEMP_RF74            ICON                    "res\\R165.ico"
+IDI_TEMP_RF75            ICON                    "res\\R167.ico"
+IDI_TEMP_RF76            ICON                    "res\\R168.ico"
+IDI_TEMP_RF77            ICON                    "res\\R170.ico"
+IDI_TEMP_RF78            ICON                    "res\\R172.ico"
+IDI_TEMP_RF79            ICON                    "res\\R174.ico"
+IDI_TEMP_RF80            ICON                    "res\\R176.ico"
+IDI_TEMP_RF81            ICON                    "res\\R177.ico"
+IDI_TEMP_RF82            ICON                    "res\\R179.ico"
+IDI_TEMP_RF83            ICON                    "res\\R181.ico"
+IDI_TEMP_RF84            ICON                    "res\\R183.ico"
+IDI_TEMP_RF85            ICON                    "res\\R185.ico"
+IDI_TEMP_RF86            ICON                    "res\\R186.ico"
+IDI_TEMP_RF87            ICON                    "res\\R188.ico"
+IDI_TEMP_RF88            ICON                    "res\\R190.ico"
+IDI_TEMP_RF89            ICON                    "res\\R192.ico"
+IDI_TEMP_RF90            ICON                    "res\\R194.ico"
+IDI_TEMP_RF91            ICON                    "res\\R195.ico"
+IDI_TEMP_RF92            ICON                    "res\\R197.ico"
+IDI_TEMP_RF93            ICON                    "res\\R199.ico"
+IDI_TEMP_RF94            ICON                    "res\\R201.ico"
+IDI_TEMP_RF95            ICON                    "res\\R203.ico"
+IDI_TEMP_RF96            ICON                    "res\\R204.ico"
+IDI_TEMP_RF97            ICON                    "res\\R206.ico"
+IDI_TEMP_RF98            ICON                    "res\\R208.ico"
+IDI_TEMP_RF99            ICON                    "res\\R210.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DISKINFO_DIALOG DIALOGEX 0, 0, 507, 347
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "CrystalDiskInfo"
+MENU IDR_MAIN_MENU
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Disk0",IDC_BUTTON_DISK0,0,0,40,40,BS_CENTER | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Disk1",IDC_BUTTON_DISK1,40,0,40,40,BS_CENTER | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Disk2",IDC_BUTTON_DISK2,80,0,40,40,BS_CENTER | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Disk3",IDC_BUTTON_DISK3,120,0,40,40,BS_CENTER | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Disk4",IDC_BUTTON_DISK4,160,0,40,40,BS_CENTER | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Disk5",IDC_BUTTON_DISK5,200,0,40,40,BS_CENTER | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Disk6",IDC_BUTTON_DISK6,240,0,40,40,BS_CENTER | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Disk7",IDC_BUTTON_DISK7,280,0,40,40,BS_CENTER | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Disk8", IDC_BUTTON_DISK8, 280, 0, 40, 40, BS_CENTER | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Disk9", IDC_BUTTON_DISK9, 280, 0, 40, 40, BS_CENTER | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Disk10", IDC_BUTTON_DISK10, 0, 0, 40, 40, BS_CENTER | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Disk11", IDC_BUTTON_DISK11, 40, 0, 40, 40, BS_CENTER | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Disk12", IDC_BUTTON_DISK12, 80, 0, 40, 40, BS_CENTER | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Disk13", IDC_BUTTON_DISK13, 120, 0, 40, 40, BS_CENTER | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Disk14", IDC_BUTTON_DISK14, 160, 0, 40, 40, BS_CENTER | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Disk15", IDC_BUTTON_DISK15, 200, 0, 40, 40, BS_CENTER | BS_MULTILINE | BS_NOTIFY
+#ifdef MAX_DRIVE_20
+    PUSHBUTTON      "Disk16", IDC_BUTTON_DISK16, 240, 0, 40, 40, BS_CENTER | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Disk17", IDC_BUTTON_DISK17, 280, 0, 40, 40, BS_CENTER | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Disk18", IDC_BUTTON_DISK18, 280, 0, 40, 40, BS_CENTER | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Disk19", IDC_BUTTON_DISK19, 280, 0, 40, 40, BS_CENTER | BS_MULTILINE | BS_NOTIFY
+#endif
+    PUSHBUTTON      "",IDC_BUTTON_PRE_DISK,9,50,26,15,BS_MULTILINE
+    PUSHBUTTON      "",IDC_BUTTON_NEXT_DISK,465,45,26,15,BS_MULTILINE
+    CONTROL         "Life",IDC_BUTTON_LIFE,"Button",BS_OWNERDRAW | BS_CENTER | BS_MULTILINE | BS_NOTIFY | WS_TABSTOP,8,199,88,23
+    PUSHBUTTON      "Good",IDC_BUTTON_HEALTH_STATUS,8,94,89,34,BS_CENTER | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "99 °C",IDC_BUTTON_TEMPERATURE,7,159,89,34,BS_CENTER | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "",IDC_BUTTON_VOICE,338,202,50,14
+    PUSHBUTTON      "",IDC_BUTTON_VOICE_HIDE, 338, 202, 50, 14
+    PUSHBUTTON      "",IDC_BUTTON_COPYRIGHT,406,202,50,14, BS_OWNERDRAW | BS_CENTER | BS_MULTILINE | BS_NOTIFY | WS_TABSTOP
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,0,257,501,89
+    CONTROL         "", IDC_VALUE_MODEL, "EDIT", WS_CHILD | ES_WANTRETURN | ES_READONLY, 1, 1, 1, 1,
+    LTEXT           "Firmware",IDC_LABEL_FIRMWARE,107,82,67,12,SS_NOTIFY
+    CONTROL         "", IDC_VALUE_FIRMWARE, "EDIT", WS_CHILD | ES_MULTILINE | ES_WANTRETURN | ES_READONLY, 1, 1, 1, 1,
+    LTEXT           "Serial Number",IDC_LABEL_SERIAL_NUMBER,106,98,65,12,SS_NOTIFY
+    CONTROL         "", IDC_VALUE_SERIAL_NUMBER, "EDIT", WS_CHILD | ES_MULTILINE | ES_WANTRETURN | ES_READONLY, 1, 1, 1, 1,
+    LTEXT           "Interface",IDC_LABEL_INTERFACE,106,113,66,12,SS_NOTIFY
+    CONTROL         "", IDC_VALUE_INTERFACE, "EDIT", WS_CHILD | ES_MULTILINE | ES_WANTRETURN | ES_READONLY, 1, 1, 1, 1,
+    LTEXT           "Transfer Mode",IDC_LABEL_TRANSFER_MODE,106,129,69,12,SS_NOTIFY
+    CONTROL         "", IDC_VALUE_TRANSFER_MODE, "EDIT", WS_CHILD | ES_MULTILINE | ES_WANTRETURN | ES_READONLY, 1, 1, 1, 1,
+    LTEXT           "Drive Letter",IDC_LABEL_DRIVE_MAP,106,148,67,12,SS_NOTIFY
+    CONTROL         "", IDC_VALUE_DRIVE_MAP, "EDIT", WS_CHILD | ES_MULTILINE | ES_WANTRETURN | ES_READONLY, 1, 1, 1, 1,
+    LTEXT           "Standard",IDC_LABEL_ATA_ATAPI,106,164,67,12,SS_NOTIFY
+    CONTROL         "", IDC_VALUE_ATA_ATAPI, "EDIT", WS_CHILD | ES_MULTILINE | ES_WANTRETURN | ES_READONLY, 1, 1, 1, 1,
+    LTEXT           "Feature",IDC_LABEL_FEATURE,106,180,67,12,SS_NOTIFY
+    CONTROL         "", IDC_VALUE_FEATURE, "EDIT", WS_CHILD | ES_MULTILINE | ES_WANTRETURN | ES_READONLY, 1, 1, 1, 1,
+    LTEXT           "Buffer Size",IDC_LABEL_BUFFER_SIZE,287,79,67,12,SS_NOTIFY
+    CONTROL         "", IDC_VALUE_BUFFER_SIZE, "EDIT", WS_CHILD | ES_MULTILINE | ES_WANTRETURN | ES_READONLY, 1, 1, 1, 1,
+    LTEXT           "NV Cache Size",IDC_LABEL_NV_CACHE_SIZE,286,97,67,12,SS_NOTIFY
+    CONTROL         "", IDC_VALUE_NV_CACHE_SIZE, "EDIT", WS_CHILD | ES_MULTILINE | ES_WANTRETURN | ES_READONLY, 1, 1, 1, 1,
+    LTEXT           "Rotation Rate",IDC_LABEL_ROTATION_RATE,287,113,67,12,SS_NOTIFY
+    CONTROL         "", IDC_VALUE_ROTATION_RATE, "EDIT", WS_CHILD | ES_MULTILINE | ES_WANTRETURN | ES_READONLY, 1, 1, 1, 1,
+    LTEXT           "Power On Count",IDC_LABEL_POWER_ON_COUNT,285,127,67,12,SS_NOTIFY
+    CONTROL         "", IDC_VALUE_POWER_ON_COUNT, "EDIT", WS_CHILD | ES_MULTILINE | ES_WANTRETURN | ES_READONLY, 1, 1, 1, 1,
+    LTEXT           "Power On Hours",IDC_LABEL_POWER_ON_HOURS,283,145,67,12,SS_NOTIFY
+    CONTROL         "", IDC_VALUE_POWER_ON_HOURS, "EDIT", WS_CHILD | ES_MULTILINE | ES_WANTRETURN | ES_READONLY, 1, 1, 1, 1,
+    LTEXT           "Health Status",IDC_LABEL_HEALTH_STATUS,12,82,67,12,SS_NOTIFY
+    CTEXT           "Temperature",IDC_LABEL_TEMPERATURE,9,145,67,12,SS_NOTIFY
+END
+
+IDD_ABOUT DIALOGEX 0, 0, 477, 362
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CrystalDiskInfo"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "", IDC_LOGO, 26, 17, 156, 107
+    PUSHBUTTON      "", IDC_VERSION, 240, 18, 193, 8
+    LTEXT           "", IDC_EDITION, 241, 38, 33, 8
+    LTEXT           "", IDC_RELEASE, 239, 62, 33, 8
+    LTEXT           "", IDC_COPYRIGHT1, 241, 84, 33, 8
+    LTEXT           "", IDC_COPYRIGHT2, 242, 84, 33, 8
+    PUSHBUTTON      "", IDC_LICENSE, 239, 110, 33, 8
+    PUSHBUTTON      "", IDC_PROJECT_SITE_1, 77, 144, 228, 21
+    PUSHBUTTON      "", IDC_PROJECT_SITE_2, 77, 194, 232, 22
+    PUSHBUTTON      "", IDC_PROJECT_SITE_3, 196, 229, 270, 31
+    PUSHBUTTON      "", IDC_PROJECT_SITE_4, 196, 267, 270, 31
+    PUSHBUTTON      "", IDC_PROJECT_SITE_5, 196, 267, 270, 31
+    PUSHBUTTON      "", IDC_SECRET_VOICE, 44, 226, 83, 22
+END
+
+IDD_GRAPH DIALOGEX 0, 0, 187, 94
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "CrystalDiskInfo - Graph"
+MENU IDR_GRAPH_MENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_OPTION DIALOGEX 0, 0, 187, 94
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CrystalDiskInfo -Graph Customize-"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_SETTING DIALOGEX 0, 0, 333, 248
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AAM/APM Control"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_SELECT_DISK,7,7,319,30, CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP
+    SCROLLBAR       IDC_AAM_SCROLLBAR,20,68,240,11
+    PUSHBUTTON      "Disable",IDC_BUTTON_DISABLE_AAM,67,103,50,14,BS_CENTER
+    PUSHBUTTON      "Enable",IDC_BUTTON_ENABLE_AAM,171,104,50,14,BS_CENTER
+    SCROLLBAR       IDC_APM_SCROLLBAR,22,171,134,11
+    PUSHBUTTON      "Disable",IDC_BUTTON_DISABLE_APM,65,207,50,14,BS_CENTER
+    PUSHBUTTON      "Enable",IDC_BUTTON_ENABLE_APM,175,209,50,14,BS_CENTER
+    LTEXT           "Automatic Acoustic Management (AAM)",IDC_LABEL_AAM,15,27,301,15
+    LTEXT           "Advanced Power Management (APM)",IDC_LABEL_APM,15,127,300,16
+    LTEXT           "Silent (80h)",IDC_LABEL_AAM_LOW,21,51,38,8
+    LTEXT           "Performance (FEh)",IDC_LABEL_AAM_HIGH,149,51,61,8
+    CTEXT           "AAM Status",IDC_VALUE_AAM_STATUS,265,54,40,14
+    LTEXT           "Recommend",IDC_LABEL_AAM_RECOMMEND,203,91,40,8
+    CTEXT           "Currnet AAM",IDC_VALUE_CURRENT_AAM,264,68,40,14
+    CTEXT           "Reommend AAM",IDC_VALUE_RECOMMEND_AAM,265,87,40,14
+    LTEXT           "Min Power (01h)",IDC_LABEL_APM_LOW,21,154,53,8
+    LTEXT           "Performance (FEh)",IDC_LABEL_APM_HIGH,174,152,61,8
+    CTEXT           "APM Status",IDC_VALUE_APM_STATUS,260,165,40,14
+    CTEXT           "Current APM",IDC_VALUE_CURRENT_APM,265,182,40,14
+END
+
+IDD_TEMPERATURE DIALOGEX 0, 0, 333, 248
+	STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+	CAPTION "Temperature Setting"
+	FONT 8, "MS Shell Dlg", 400, 0, 0x1
+	BEGIN
+	COMBOBOX        IDC_SELECT_DISK, 7, 7, 319, 30, CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP
+	SCROLLBAR       IDC_SCROLLBAR_TEMPERATURE, 20, 46, 134, 11
+	PUSHBUTTON      "default", IDC_DEFAULT, 55, 185, 83, 14, BS_CENTER
+	PUSHBUTTON      "apply", IDC_APPLY, 185, 185, 83, 14, BS_CENTER
+	CTEXT           "", IDC_VALUE_TEMPERATURE, 195, 47, 33, 8
+	CTEXT           "", IDC_VALUE_TEMPERATURE_F, 245, 44, 33, 8
+END
+
+IDD_HEALTH DIALOGEX 0, 0, 333, 214
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Health Status Setting"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_SELECT_DISK,7,7,319,30, CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP
+    SCROLLBAR       IDC_SCROLLBAR_05,20,46,134,11
+    SCROLLBAR       IDC_SCROLLBAR_C5,17,86,134,11
+    SCROLLBAR       IDC_SCROLLBAR_C6,15,128,134,11
+    SCROLLBAR       IDC_SCROLLBAR_FF,15,162,134,11
+    PUSHBUTTON      "default",IDC_DEFAULT,55,185,83,14,BS_CENTER
+    PUSHBUTTON      "apply",IDC_APPLY,185,185,83,14,BS_CENTER
+    LTEXT           "",IDC_LABEL_05,7,24,286,13
+    LTEXT           "",IDC_LABEL_C5,7,70,33,8
+    LTEXT           "",IDC_LABEL_C6,7,111,33,8
+    CTEXT           "",IDC_VALUE_05,195,47,33,8
+    CTEXT           "",IDC_VALUE_05X,245,44,33,8
+    CTEXT           "",IDC_VALUE_C5,195,87,33,8
+    CTEXT           "",IDC_VALUE_C5X,245,86,33,8
+    CTEXT           "",IDC_VALUE_C6,197,130,33,8
+    CTEXT           "",IDC_VALUE_C6X,248,130,33,8
+    LTEXT           "",IDC_LABEL_FF,7,145,33,8
+    CTEXT           "",IDC_VALUE_FF,197,164,33,8
+    CTEXT           "",IDC_VALUE_FFX,248,164,33,8
+END
+
+IDD_FONT DIALOGEX 0, 0, 180, 89
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Font Setting"
+FONT 12, "MS Shell Dlg", 400, 0, 0x80
+BEGIN
+    LTEXT           "Font Face", IDC_FONT_FACE, 1, 1, 1, 1
+    LTEXT           "Font Scale", IDC_FONT_SCALE, 1, 1, 1, 1
+    LTEXT           "Render Method", IDC_FONT_RENDER, 1, 1, 1, 1
+    COMBOBOX        IDC_FONT_FACE_COMBO, 7, 6, 166, 20, CBS_DROPDOWNLIST | CBS_OWNERDRAWVARIABLE | CBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_FONT_SCALE_COMBO, 7, 28, 166, 148, CBS_DROPDOWNLIST | CBS_OWNERDRAWVARIABLE | CBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_FONT_RENDER_COMBO, 7, 28, 166, 148, CBS_DROPDOWNLIST | CBS_OWNERDRAWVARIABLE | CBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Default", IDC_SET_DEFAULT, 26, 17, 156, 107, BS_CENTER
+    PUSHBUTTON      "OK", IDC_OK, 48, 68, 83, 14, BS_CENTER
+END
+
+IDD_ALARM_HISTORY DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_ALARM_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,302,169
+END
+
+IDD_SOUND_SETTINGS DIALOGEX 0, 0, 723, 48
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_FILE_PATH,7,7,378,16,SS_NOTIFY
+    PUSHBUTTON      "",IDC_BUTTON_SELECT_FILE,393,7,50,14
+    PUSHBUTTON      "",IDC_BUTTON_PLAY,450,7,50,14
+    PUSHBUTTON      "Default",IDC_BUTTON_DEFAULT,53,26,50,14,BS_CENTER
+    PUSHBUTTON      "OK",IDC_BUTTON_OK,173,26,50,14,BS_CENTER
+    CONTROL         "",IDC_SLIDER_VOLUME,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | TBS_FIXEDLENGTH | WS_TABSTOP,248,25,100,15
+//    SCROLLBAR       IDC_SLIDER_VOLUME, 17, 86, 134, 11
+    LTEXT           "",IDC_STATIC_VOLUME,606,32,8,8
+    CTEXT           "",IDC_VALUE_VOLUME, 245, 44, 33, 8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 9, 3, 2, 0
+ PRODUCTVERSION 9, 3, 2, 0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080003a4"
+        BEGIN
+#ifdef MSI_MEI_SUPPORT
+            VALUE "Comments", "https://crystalmark.info/"
+#else
+            VALUE "Comments", "https://crystalmark.info/ MIT License"
+#endif
+            VALUE "CompanyName", "Crystal Dew World"
+            VALUE "FileVersion", "9.3.2.0"
+            VALUE "ProductVersion", "9.3.2.0"
+            VALUE "OriginalFilename", "DiskInfo.exe"
+            VALUE "InternalName", "DiskInfo.exe"
+
+    #ifdef SUISHO_AOI_SUPPORT
+            VALUE "FileDescription", "CrystalDiskInfo Aoi Edition"
+            VALUE "ProductName", "CrystalDiskInfo Aoi Edition"
+            VALUE "LegalCopyright", "(C) 2008-2024 hiyohiyo, (C) 2023-2024 nijihashi sola"
+
+    #elif MSI_MEI_SUPPORT
+            VALUE "FileDescription", "CrystalDiskInfo MSI Mei Mihoshi Edition"
+            VALUE "ProductName", "CrystalDiskInfo MSI Mei Mihoshi Edition"
+            VALUE "LegalCopyright", "(C) 2008-2024 hiyohiyo, (C) 2024 Micro-Star INT'L CO., LTD."
+
+    #elif KUREI_KEI_SUPPORT
+            VALUE "FileDescription", "CrystalDiskInfo Kurei Kei Edition"
+            VALUE "ProductName", "CrystalDiskInfo Kurei Kei Edition"
+            VALUE "LegalCopyright", "(C) 2008-2024 hiyohiyo, (C) 2017-2024 Pronama LLC"
+
+    #elif SUISHO_SHIZUKU_SUPPORT
+            VALUE "FileDescription", "CrystalDiskInfo Shizuku Edition"
+            VALUE "ProductName", "CrystalDiskInfo Shizuku Edition"
+            VALUE "LegalCopyright", "(C) 2008-2024 hiyohiyo, (C) 2012-2024 kirino kasumu"
+
+    #else
+            VALUE "FileDescription", "CrystalDiskInfo"
+            VALUE "ProductName", "CrystalDiskInfo"
+            VALUE "LegalCopyright", "(C) 2008-2024 hiyohiyo"
+    #endif
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x800, 932
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DISKINFO_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 501
+        BOTTOMMARGIN, 346
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 466
+        BOTTOMMARGIN, 357
+    END
+
+    IDD_GRAPH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_OPTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_SETTING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 326
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 241
+    END
+
+	IDD_TEMPERATURE, DIALOG
+		BEGIN
+		LEFTMARGIN, 7
+		RIGHTMARGIN, 326
+		TOPMARGIN, 7
+		BOTTOMMARGIN, 241
+		END
+
+    IDD_HEALTH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 326
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 207
+    END
+
+    IDD_FONT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 173
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 82
+    END
+
+    IDD_ALARM_HISTORY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_SOUND_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 716
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 40
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAIN_MENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Save (&text)",                    ID_SAVE_TEXT
+        MENUITEM "Save (&image)",                   ID_SAVE_IMAGE
+        MENUITEM "&Exit",                           ID_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Copy\tCtrl + Shift + C",         ID_COPY
+        POPUP "Options"
+        BEGIN
+            MENUITEM "IDENTIFY_DEVICE",             ID_DUMP_IDENTIFY_DEVICE
+            MENUITEM "SMART_READ_DATA",             ID_DUMP_SMART_READ_DATA
+            MENUITEM "SMART_READ_THRESHOLD",        ID_DUMP_SMART_READ_THRESHOLD
+            MENUITEM SEPARATOR
+            MENUITEM "ASCII View",                  ID_ASCII_VIEW
+        END
+    END
+    POPUP "F&unction"
+    BEGIN
+        MENUITEM "Refresh\tF5",                     ID_REFRESH
+        POPUP "Auto Refresh"
+        BEGIN
+            MENUITEM "1 min.",                      ID_AUTO_REFRESH_01_MIN
+            MENUITEM "3 min.",                      ID_AUTO_REFRESH_03_MIN
+            MENUITEM "5 min.",                      ID_AUTO_REFRESH_05_MIN
+            MENUITEM "10 min.",                     ID_AUTO_REFRESH_10_MIN
+            MENUITEM "30 min.",                     ID_AUTO_REFRESH_30_MIN
+            MENUITEM "60 min.",                     ID_AUTO_REFRESH_60_MIN
+			MENUITEM "120 min.",					ID_AUTO_REFRESH_120_MIN
+			MENUITEM "180 min.",					ID_AUTO_REFRESH_180_MIN
+			MENUITEM "360 min.",					ID_AUTO_REFRESH_360_MIN
+			MENUITEM "720 min.",					ID_AUTO_REFRESH_720_MIN
+			MENUITEM "1440 min.",					ID_AUTO_REFRESH_1440_MIN
+			MENUITEM "Disable",                     ID_AUTO_REFRESH_DISABLE
+        END
+        POPUP "Auto Refresh Target"
+        BEGIN
+            MENUITEM "DUMMY",                       ID_DUMMY
+        END
+        MENUITEM "Rescan\tF6",                      ID_RESCAN
+        MENUITEM SEPARATOR
+        MENUITEM "Graph",                           ID_GRAPH
+        MENUITEM SEPARATOR
+        MENUITEM "Hide Serial Number",              ID_HIDE_SERIAL_NUMBER
+        MENUITEM "Resident",                        ID_RESIDENT
+        MENUITEM "Startup",                         ID_STARTUP
+
+        MENUITEM SEPARATOR
+        POPUP "Alert Features"
+        BEGIN
+            MENUITEM "Alert Mail",                  ID_ALERT_MAIL
+            MENUITEM "Mail Settings",               ID_MAIL_SETTINGS
+            MENUITEM "Alert Sound",                 ID_ALERT_SOUND
+            MENUITEM "Sound Settings",              ID_SOUND_SETTINGS
+            MENUITEM "Event Log",                   ID_EVENT_LOG
+        END
+        POPUP "Advanced Features"
+        BEGIN
+            MENUITEM "AAM/APM Setting",             ID_AAM_APM
+            MENUITEM "Auto AAM/APM Adaptation",     ID_AUTO_AAM_APM
+            MENUITEM "Health Status Setting",       ID_HEALTH_STATUS
+			MENUITEM "Temperature Setting",			ID_TEMPERATURE
+            MENUITEM SEPARATOR
+            POPUP "Temperature"
+            BEGIN
+                MENUITEM "Celsius",                 ID_CELSIUS
+                MENUITEM "Fahrenheit",              ID_FAHRENHEIT
+            END
+            POPUP "Auto Detection"
+            BEGIN
+                MENUITEM "5 sec.",                  ID_AUTO_DETECTION_05_SEC
+                MENUITEM "10 sec.",                 ID_AUTO_DETECTION_10_SEC
+                MENUITEM "20 sec.",                 ID_AUTO_DETECTION_20_SEC
+                MENUITEM "30 sec.",                 ID_AUTO_DETECTION_30_SEC
+                MENUITEM "Disable",                 ID_AUTO_DETECTION_DISABLE
+            END
+            POPUP "Raw Values"
+            BEGIN
+                MENUITEM "16 [HEX]",                ID_RAW_VALUES_16
+                MENUITEM "10 [DEC]",                ID_RAW_VALUES_10_ALL
+                MENUITEM "10 [DEC] - 2byte",        ID_RAW_VALUES_2BYTE
+                MENUITEM "10 [DEC] - 1byte",        ID_RAW_VALUES_1BYTE
+            END
+            POPUP "Wait Time at Startup"
+            BEGIN
+                MENUITEM "0 sec.",                      ID_WAIT_0_SEC
+                MENUITEM "5 sec.",                      ID_WAIT_5_SEC
+                MENUITEM "10 sec.",                     ID_WAIT_10_SEC
+                MENUITEM "15 sec.",                     ID_WAIT_15_SEC
+                MENUITEM "20 sec.",                     ID_WAIT_20_SEC
+                MENUITEM "30 sec.",                     ID_WAIT_30_SEC
+                MENUITEM "40 sec.",                     ID_WAIT_40_SEC
+                MENUITEM "50 sec.",                     ID_WAIT_50_SEC
+                MENUITEM "60 sec.",                     ID_WAIT_60_SEC
+                MENUITEM "90 sec.",                     ID_WAIT_90_SEC
+                MENUITEM "120 sec.",                    ID_WAIT_120_SEC
+                MENUITEM "150 sec.",                    ID_WAIT_150_SEC
+                MENUITEM "180 sec.",                    ID_WAIT_180_SEC
+                MENUITEM "210 sec.",                    ID_WAIT_210_SEC
+                MENUITEM "240 sec.",                    ID_WAIT_240_SEC
+            END
+            POPUP "Resident Style"
+            BEGIN
+                MENUITEM "Hide",                        ID_RESIDENT_HIDE
+                MENUITEM "Minimize",                    ID_RESIDENT_MINIMIZE
+            END
+            POPUP "Drive Sort Method"
+            BEGIN
+                MENUITEM "Physical Drive ID",           ID_SORT_PHYSICAL_DRIVE_ID
+                MENUITEM "Drive Letter",                ID_SORT_DRIVE_LETTER
+            END
+            POPUP "Drive Menu"
+                BEGIN
+                MENUITEM "8",                           ID_DRIVE_MENU_8
+#ifdef MAX_DRIVE_20
+                MENUITEM "10",                          ID_DRIVE_MENU_10
+#endif
+                MENUITEM "16",                          ID_DRIVE_MENU_16
+#ifdef MAX_DRIVE_20
+                MENUITEM "20",                          ID_DRIVE_MENU_20
+#endif
+            END
+            MENUITEM SEPARATOR
+            MENUITEM "&Advanced Disk Search",           ID_ADVANCED_DISK_SEARCH
+            MENUITEM "ATA_PASS_THROUGH",                ID_ATA_PASS_THROUGH_SMART
+            POPUP "USB/IEEE 1394"
+            BEGIN
+                MENUITEM "SCSI_ATA_TRANSLATION (SAT)",  ID_USB_SAT
+                MENUITEM "I-O DATA",                    ID_USB_IODATA
+                MENUITEM "Sunplus",                     ID_USB_SUNPLUS
+                MENUITEM "Logitec",                     ID_USB_LOGITEC
+				MENUITEM "Prolific",                    ID_USB_PROLIFIC
+                MENUITEM "JMicron",                     ID_USB_JMICRON
+                MENUITEM "Cypress",                     ID_USB_CYPRESS
+                MENUITEM "ASMedia ASM1352R",            ID_USB_ASM1352R
+#ifdef JMICRON_USB_RAID_SUPPORT
+                MENUITEM "JMicron JMS56X",              ID_USB_JMS56X
+                MENUITEM "JMicron JMB39X",              ID_USB_JMB39X
+                MENUITEM "JMicron JMS586 (Alpha)",      ID_USB_JMS586
+#endif 
+                MENUITEM "USB Memory (SAT)",            ID_USB_MEMORY
+//                MENUITEM "SCSI_ATA_TRANSLATION_16BYTE (Samsung SATA SSD Life)",   ID_USB_SAT16
+                MENUITEM "SCSI_NVME_TRANSLATION (JMicron for USB3/4)",   ID_USB_NVME_JMICRON3
+		        MENUITEM "SCSI_NVME_TRANSLATION (JMicron for USB2/3/4)", ID_USB_NVME_JMICRON
+                MENUITEM "SCSI_NVME_TRANSLATION (ASMedia)",            ID_USB_NVME_ASMEDIA
+				MENUITEM "SCSI_NVME_TRANSLATION (Realtek)",            ID_USB_NVME_REALTEK
+
+                MENUITEM SEPARATOR
+                MENUITEM "Enable All",                  ID_USB_ENABLE_ALL
+                MENUITEM "Disable All",                 ID_USB_DISABLE_ALL
+            END
+            POPUP "Intel/AMD RAID (CSMI)"
+            BEGIN
+                MENUITEM "Enable (Auto Detection, default)", ID_CSMI_ENABLE_AUTO
+                MENUITEM "Enable (Access RAID Disks only)", ID_CSMI_ENABLE_RAID
+                MENUITEM "Enable (Access All Disks)",   ID_CSMI_ENABLE_ALL
+                MENUITEM "Disable",                     ID_CSMI_DISABLE
+            END
+            MENUITEM "AMD RAIDXpert2 (AMD_RC2t7)", ID_AMD_RC2T7
+			MENUITEM "MegaRAID", ID_MEGA_RAID
+            MENUITEM "Intel VROC", ID_INTEL_VROC
+
+            MENUITEM SEPARATOR
+            MENUITEM "Gadget Support",              ID_GADGET_SUPPORT
+//            MENUITEM "Install Gadget",              ID_INSTALL_GADGET
+            MENUITEM SEPARATOR
+            MENUITEM "Hide S.M.A.R.T. Information", ID_HIDE_SMART_INFO
+            MENUITEM "Hide No S.M.A.R.T. Disk",     ID_HIDE_NO_SMART_DISK
+        END
+        POPUP "Workaround"
+        BEGIN
+            MENUITEM "[Firmware Bug] SAMSUNG HD155UI/HD204UI", ID_WORKAROUND_HD204UI
+            MENUITEM "[IE Bug] IE8 Mode",           ID_WORKAROUND_IE8MODE
+            MENUITEM "[Ignore] (C4) Reallocation Event Count", ID_WORKAROUND_IGNORE_C4
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Open ""Disk Management""",    ID_OPEN_DISK_MANAGEMENT
+        MENUITEM "Open ""Device Manager""",     ID_OPEN_DEVICE_MANAGER
+    END
+    POPUP "&Theme"
+    BEGIN
+        POPUP "Zoom"
+        BEGIN
+            MENUITEM "100%",                        ID_ZOOM_100
+            MENUITEM "125%",                        ID_ZOOM_125
+            MENUITEM "150%",                        ID_ZOOM_150
+            MENUITEM "200%",                        ID_ZOOM_200
+            MENUITEM "250%",                        ID_ZOOM_250
+            MENUITEM "300%",                        ID_ZOOM_300
+            MENUITEM "Auto",                        ID_ZOOM_AUTO
+        END
+        MENUITEM "Green Mode",                  ID_GREEN_MODE
+//        MENUITEM "Disable Dark Mode",           ID_DISABLE_DARK_MODE
+        MENUITEM "Font Setting",                ID_FONT_SETTING
+        MENUITEM SEPARATOR
+    END
+    POPUP "&Disk"
+    BEGIN
+        MENUITEM "DUMMY",                       ID_DUMMY
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "Help [Web]",                  ID_HELP
+        MENUITEM "Crystal Dew World [Web]",     ID_CRYSTALDEWWORLD
+        MENUITEM "About S.M.A.R.T. (Wikipedia) [Web]", ID_HELP_ABOUT_SMART
+        MENUITEM SEPARATOR
+        MENUITEM "About CrystalDiskInfo",       ID_ABOUT
+    END
+    POPUP "&Language"
+    BEGIN
+        POPUP "A-N"
+        BEGIN
+            MENUITEM "DUMMY",                       ID_DUMMY
+        END
+        POPUP "O-Z"
+        BEGIN
+            MENUITEM "DUMMY",                       ID_DUMMY
+        END
+#ifdef SUISHO_AOI_SUPPORT
+        POPUP "&Voice"
+        BEGIN
+            MENUITEM "English, [English]", ID_VOICE_ENGLISH
+            MENUITEM "日本語, [Japanese]", ID_VOICE_JAPANESE
+        END
+#endif 
+#ifdef SUISHO_SHIZUKU_SUPPORT
+        MENUITEM "Startup Voice",               ID_STARTUP_VOICE
+#endif 
+
+        MENUITEM "S.M.A.R.T. in English",       ID_SMART_ENGLISH
+    END
+END
+
+IDR_GRAPH_MENU MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "&Customize",                  ID_CUSTOMIZE
+        MENUITEM "Exit",                        ID_EXIT
+    END
+    POPUP "Option"
+    BEGIN
+        POPUP "Legend Position"
+        BEGIN
+            MENUITEM "North West",                  ID_NORTH_WEST
+            MENUITEM "North East",                  ID_NORTH_EAST
+            MENUITEM "South West",                  ID_SOUTH_WEST
+            MENUITEM "South East",                  ID_SOUTH_EAST
+        END
+        POPUP "Max Number of Points"
+        BEGIN
+            MENUITEM "100",                         ID_POINT_100
+            MENUITEM "200",                         ID_POINT_200
+            MENUITEM "300",                         ID_POINT_300
+            MENUITEM "400",                         ID_POINT_400
+            MENUITEM "500",                         ID_POINT_500
+            MENUITEM "600",                         ID_POINT_600
+            MENUITEM "700",                         ID_POINT_700
+            MENUITEM "800",                         ID_POINT_800
+            MENUITEM "900",                         ID_POINT_900
+            MENUITEM "1000",                        ID_POINT_1000
+            MENUITEM "2000",                        ID_POINT_2000
+            MENUITEM "3000",                        ID_POINT_3000
+            MENUITEM "4000",                        ID_POINT_4000
+            MENUITEM "5000",                        ID_POINT_5000
+            MENUITEM "All",                         ID_POINT_ALL
+        END
+        POPUP "Time Format"
+        BEGIN
+            MENUITEM "MM/DD hh:mm",                 ID_MDHM
+            MENUITEM "MM/DD",                       ID_MD
+            MENUITEM "YYYY/MM/DD hh:mm",            ID_YMDHM
+            MENUITEM "YYYY/MM/DD",                  ID_YMD
+            MENUITEM "DD/MM/YYYY hh:mm",            ID_DMYHM
+            MENUITEM "DD/MM/YYYY",                  ID_DMY
+            MENUITEM "DD.MM.YYYY hh:mm",            ID_DMYHM2
+            MENUITEM "DD.MM.YYYY",                  ID_DMY2
+        END
+        POPUP "Attribute"
+        BEGIN
+            MENUITEM "HDD",                         ID_HDD
+            MENUITEM "SSD - ATA",                   ID_SSD
+			MENUITEM "SSD - NVMe",                  ID_SSD_NVME
+            MENUITEM "SSD - Apacer",                ID_SSD_APACER
+            MENUITEM "SSD - CORSAIR",               ID_SSD_CORSAIR
+            MENUITEM "SSD - Indilinx",              ID_SSD_INDILINX
+            MENUITEM "SSD - Intel",                 ID_SSD_INTEL
+            MENUITEM "SSD - Intel DC",              ID_SSD_INTEL_DC
+            MENUITEM "SSD - JMicron 60x",           ID_SSD_JMICRON_60X
+            MENUITEM "SSD - JMicron 61x",           ID_SSD_JMICRON_61X
+            MENUITEM "SSD - JMicron 66x",           ID_SSD_JMICRON_66X
+            MENUITEM "SSD - Kingston",              ID_SSD_KINGSTON
+            MENUITEM "SSD - Kingston DC500",        ID_SSD_KINGSTON_DC500
+            MENUITEM "SSD - Kingston KC600",        ID_SSD_KINGSTON_KC600
+            MENUITEM "SSD - Kingston SA400",        ID_SSD_KINGSTON_SA400
+            MENUITEM "SSD - Kingston SUV",          ID_SSD_KINGSTON_SUV
+            MENUITEM "SSD - KIOXIA",                ID_SSD_KIOXIA
+            MENUITEM "SSD - Marvell",               ID_SSD_MARVELL
+            MENUITEM "SSD - Maxiotek",              ID_SSD_MAXIOTEK
+            MENUITEM "SSD - Micron",                ID_SSD_MICRON
+            MENUITEM "SSD - Micron MU03",           ID_SSD_MICRON_MU03
+            MENUITEM "SSD - MTRON",                 ID_SSD_MTRON
+            MENUITEM "SSD - OCZ",                   ID_SSD_OCZ
+            MENUITEM "SSD - OCZ VECTOR",            ID_SSD_OCZ_VECTOR
+            MENUITEM "SSD - PHISON",                ID_SSD_PHISON
+            MENUITEM "SSD - Plextor",               ID_SSD_PLEXTOR
+			MENUITEM "SSD - Realtek",               ID_SSD_REALTEK
+            MENUITEM "SSD - RECADATA",              ID_SSD_RECADATA
+            MENUITEM "SSD - SAMSUNG",               ID_SSD_SAMSUNG
+            MENUITEM "SSD - SandForce",             ID_SSD_SANDFORCE
+            MENUITEM "SSD - SanDisk",               ID_SSD_SANDISK
+            MENUITEM "SSD - SanDisk GB",            ID_SSD_SANDISK_GB
+
+            MENUITEM "SSD - SanDisk DELL",          ID_SSD_SANDISK_DELL,
+            MENUITEM "SSD - SanDisk HP",            ID_SSD_SANDISK_HP,
+            MENUITEM "SSD - SanDisk HP (Venus)",    ID_SSD_SANDISK_HP_VENUS,
+            MENUITEM "SSD - SanDisk Lenovo",        ID_SSD_SANDISK_LENOVO,
+            MENUITEM "SSD - SanDisk Lenovo (Helen/Venus)", ID_SSD_SANDISK_LENOVO_HELEN_VENUS,
+
+            MENUITEM "SSD - Seagate",               ID_SSD_SEAGATE
+            MENUITEM "SSD - Seagate Barra Cuda",    ID_SSD_SEAGATE_BARRA_CUDA
+            MENUITEM "SSD - Seagate IronWolf",      ID_SSD_SEAGATE_IRON_WOLF
+            MENUITEM "SSD - SCY",                   ID_SSD_SCY
+            MENUITEM "SSD - Silicon Motion",        ID_SSD_SILICONMOTION
+            MENUITEM "SSD - SK Hynix",              ID_SSD_SKHYNIX
+            MENUITEM "SSD - SSSTC",                 ID_SSD_SSSTC
+            MENUITEM "SSD - TOSHIBA",               ID_SSD_TOSHIBA
+            MENUITEM "SSD - WDC",                   ID_SSD_WDC
+            MENUITEM "SSD - YMTC",                  ID_SSD_YMTC
+            MENUITEM "SSD - Silicon Motion CVC",    ID_SSD_SILICONMOTION_CVC
+            MENUITEM "SSD - ADATA Industrial",      ID_SSD_ADATA_INDUSTRIAL
+        END
+        MENUITEM "Paint Weekend",               ID_PAINT_WEEKEND
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR ACCELERATORS
+BEGIN
+    "C",            ID_COPY,                VIRTKEY, CONTROL, SHIFT, NOINVERT
+    "T",            ID_SAVE_TEXT,           VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_SAVE_IMAGE,          VIRTKEY, CONTROL, NOINVERT
+    VK_F4,          ID_EXIT,                VIRTKEY, ALT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F5,          ID_REFRESH,             VIRTKEY, NOINVERT
+    VK_F6,          ID_RESCAN,              VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// HTML
+//
+
+IDR_HTML_DUMMY          HTML                    "res\\dummy.html"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// OPUS
+//
+
+CDI_SOUND_001        OPUS                    "res\\001soundkenjin.opus"
+#endif    // 日本語 (日本) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE 17, 1
+#pragma code_page(932)
+#include "res\DiskInfo.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
