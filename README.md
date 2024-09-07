@@ -1,5 +1,7 @@
 # CrystalDiskInfo_dll_lib
 
+· 中文· [English](./README-en.md)
+
 CrystalDiskInfo项目的dll动态库的封装，方便其它语言使用。
 
 ## 为什么做这个
@@ -139,3 +141,7 @@ CrystalDiskInfo项目的dll动态库的封装，方便其它语言使用。
 ## 其它
 
 有问题可以咨询我whyzi@qq.com
+
+## 参考项目
+
+[crystaldiskinfo](https://github.com/hiyohiyo/CrystalDiskInfo)
