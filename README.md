@@ -1,147 +1,147 @@
 # CrystalDiskInfo_dll_lib
 
-· 中文· [English](./README-en.md)
+· English · [中文](./README-cn.md) 
 
-CrystalDiskInfo项目的dll动态库的封装，方便其它语言使用。
+The dll dynamic library of the CrystalDiskInfo project is encapsulated to facilitate the use of other languages.
 
-## 为什么做这个
+## Why do this?
 
-我在做一个软件，需要读取电脑上所有连接的硬盘信息（主要是硬件型号和序列号）。项目是使用wpf开发的。
-本来我是使用C#的wmi接口去获取的，代码如下：
+I am working on a software that needs to read the information of all hard disks connected to the computer (mainly hardware models and serial numbers). The project is developed using wpf.
+Originally I used the wmi interface of C# to obtain it. The code is as follows:
 ```
-  ManagementObjectSearcher moSearcher = new ManagementObjectSearcher("SELECT * FROM Win32_DiskDrive");
-  foreach (var mo in moSearcher.Get())
-  {
-      var diskinfo = new DiskInfo();
-      diskinfo.device_name = mo["Model"].ToString();
-      diskinfo.searial_num = mo["SerialNumber"].ToString();
-      diskinfo.is_cur_disk = false;
-      if (Convert.ToInt16(mo["Index"]) == curdisk) diskinfo.is_cur_disk = true;
-      _disk_list.Add(diskinfo);
-  }
+ManagementObjectSearcher moSearcher = new ManagementObjectSearcher("SELECT * FROM Win32_DiskDrive");
+foreach (var mo in moSearcher.Get())
+{
+var diskinfo = new DiskInfo();
+diskinfo.device_name = mo["Model"].ToString();
+diskinfo.searial_num = mo["SerialNumber"].ToString();
+diskinfo.is_cur_disk = false;
+if (Convert.ToInt16(mo["Index"]) == curdisk) diskinfo.is_cur_disk = true;
+_disk_list.Add(diskinfo);
+}
 ```
-但发现只能正确识别到stat接口的硬盘，如果硬盘是通过nvme接口或者是usb连接的，就无法识别。
-意外发现，有一款开源软件[crystaldiskinfo](https://github.com/hiyohiyo/CrystalDiskInfo)识别的很准确。于时看了一眼他的代码，发现是用c++写的，里面的除了调用wmi接口外，还有很多和硬件驱动交互的逻辑。
-于是我就想，能不能把crystaldiskinfo封装成一个dll库给c#调用，这样就能识别准确了。在参考了网上的资料后，我实现了这个库。
+But I found that only the hard disk with the stat interface can be correctly recognized. If the hard disk is connected through the nvme interface or USB, it cannot be recognized.
+I accidentally discovered that there is an open source software [crystaldiskinfo](https://github.com/hiyohiyo/CrystalDiskInfo) that can identify it very accurately. Yu Shi took a look at his code and found that it was written in C++. In addition to calling the wmi interface, there was also a lot of logic for interacting with the hardware driver.
+So I thought, could I encapsulate crystaldiskinfo into a dll library for c# to call, so that the identification can be accurate. After referring to information on the Internet, I implemented this library.
 
-## dll使用方法
+## How to use dll
 
-先下载编译好的(dll)[https://github.com/ftyszyx/CrystalDiskInfo_dll_lib/releases/tag/1.0.0],dll分32位和64位
+First download the compiled (dll) [https://github.com/ftyszyx/CrystalDiskInfo_dll_lib/releases/tag/1.0.0], the dll is divided into 32-bit and 64-bit
 
-### 导入接口
-
-```
-  [DllImport(dllname, EntryPoint = "CreateAtaSmart", CallingConvention = CallingConvention.Cdecl )]
-  static extern IntPtr CreateAtaSmart();
-
-  [DllImport(dllname, CharSet = CharSet.Auto)]
-  static extern void DestroyAtaSmart(IntPtr ptr);
-
-  [DllImport(dllname, CharSet = CharSet.Auto)]
-  static extern void InitAtaSmart(IntPtr ptr, bool useWmi, bool advancedDiskSearch,
-                                             bool flagChangeDisk, bool workaroundHD204UI, bool workaroundAdataSsd,
-                                             bool flagHideNoSmartDisk);
-   [DllImport(dllname, CharSet = CharSet.Auto)]
-   static extern int GetPhysicalDriveId(IntPtr ptr, int index);
-
-   [DllImport(dllname, CharSet = CharSet.Auto)]
-   static extern int GetInterfaceType(IntPtr ptr, int index);
-
-   [DllImport(dllname, CharSet = CharSet.Auto)]
-   static extern IntPtr GetModel(IntPtr ptr, int index);
-
-   [DllImport(dllname, CharSet = CharSet.Auto)]
-   static extern IntPtr GetSerialNumber(IntPtr ptr, int index);
-
-   [DllImport(dllname, CharSet = CharSet.Auto)]
-   static extern IntPtr GetDrivemap(IntPtr ptr, int index);
-
-   [DllImport(dllname, CharSet = CharSet.Auto)]
-   static extern int GetDiskCount(IntPtr ptr);
-
-   [DllImport(dllname, CharSet = CharSet.Auto)]
-   static extern int GetDriveLettermap(IntPtr ptr,int index);
-```
-
-### 初始化atasmart
+### Import interface
 
 ```
- static IntPtr smartPtr  ;
- static void Init()
- {
-     smartPtr = CreateAtaSmart();
-     InitAtaSmart(smartPtr, true, false, false, false, true, true);
- }
+[DllImport(dllname, EntryPoint = "CreateAtaSmart", CallingConvention = CallingConvention.Cdecl )]
+static extern IntPtr CreateAtaSmart();
+
+[DllImport(dllname, CharSet = CharSet.Auto)]
+static extern void DestroyAtaSmart(IntPtr ptr);
+
+[DllImport(dllname, CharSet = CharSet.Auto)]
+static extern void InitAtaSmart(IntPtr ptr, bool useWmi, bool advancedDiskSearch,
+bool flagChangeDisk, bool workaroundHD204UI, bool workaroundAdataSsd,
+bool flagHideNoSmartDisk);
+[DllImport(dllname, CharSet = CharSet.Auto)]
+static extern int GetPhysicalDriveId(IntPtr ptr, int index);
+
+[DllImport(dllname, CharSet = CharSet.Auto)]
+static extern int GetInterfaceType(IntPtr ptr, int index);
+
+[DllImport(dllname, CharSet = CharSet.Auto)]
+static extern IntPtr GetModel(IntPtr ptr, int index);
+
+[DllImport(dllname, CharSet = CharSet.Auto)]
+static extern IntPtr GetSerialNumber(IntPtr ptr, int index);
+
+[DllImport(dllname, CharSet = CharSet.Auto)]
+static extern IntPtr GetDrivemap(IntPtr ptr, int index);
+
+[DllImport(dllname, CharSet = CharSet.Auto)]
+static extern int GetDiskCount(IntPtr ptr);
+
+[DllImport(dllname, CharSet = CharSet.Auto)]
+static extern int GetDriveLettermap(IntPtr ptr,int index);
 ```
 
-### 获取硬盘数量
+### Initialize atasmart
 
 ```
- public static int GetDiskCount()
- {
-     if (smartPtr == IntPtr.Zero)
-         Init();
-     return GetDiskCount(smartPtr);
- }
+static IntPtr smartPtr  ;
+static void Init()
+{
+smartPtr = CreateAtaSmart();
+InitAtaSmart(smartPtr, true, false, false, false, true, true);
+}
 ```
 
-### 获取硬盘modelname和序列号
-```
- public static string GetDiskModel(int index)
- {
-     if (smartPtr==IntPtr.Zero)
-         Init();
-     var textptr=GetModel(smartPtr, index);
-     var text = Marshal.PtrToStringAnsi(textptr);
-     return text;
- }
+### Get the number of hard disks
 
- public static string GetDiskSerialNumber(int index)
- {
-     if (smartPtr == IntPtr.Zero)
-         Init();
-     var textptr=GetSerialNumber(smartPtr, index);
-     return Marshal.PtrToStringAnsi(textptr);
- }
+```
+public static int GetDiskCount()
+{
+if (smartPtr == IntPtr.Zero)
+Heat();
+return GetDiskCount(smartPtr);
+}
 ```
 
-### 销毁
+### Get the hard disk modelname and serial number
 ```
-  public static void destory()
-  {
-      if (smartPtr == IntPtr.Zero)
-      {
-          return;
-      }
-      DestroyAtaSmart(smartPtr);
-  }
+public static string GetDiskModel(int index)
+{
+if (smartPtr==IntPtr.Zero)
+Heat();
+var textptr=GetModel(smartPtr, index);
+var text = Marshal.PtrToStringAnsi(textptr);
+return text;
+}
+
+public static string GetDiskSerialNumber(int index)
+{
+if (smartPtr == IntPtr.Zero)
+Heat();
+var textptr=GetSerialNumber(smartPtr, index);
+return Marshal.PtrToStringAnsi(textptr);
+}
 ```
 
-## 自己编译
-
-使用visual studio打开DiskInfo.sln自行编译
-
-## 注意事项
-
-### 程序需要管理员权限才能成功获取硬盘信息
-
-如果是winform工程，需要增加清单文件app.manifest，并增加权限
+### Destroy
 ```
- <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+public static void destory()
+{
+if (smartPtr == IntPtr.Zero)
+{
+return;
+}
+DestroyAtaSmart(smartPtr);
+}
 ```
-具体可以上网查询
 
-### winform下有可能会识别错操作系统，导致nvme硬盘无法识别
-需要在清单文件app.manifest增加系统配置
+## Compile yourself
+
+Use visual studio to open DiskInfo.sln and compile it yourself
+
+## Notes
+
+### The program requires administrator rights to successfully obtain hard disk information.
+
+If it is a winform project, you need to add the manifest file app.manifest and add permissions
+```
+<requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+```
+For details, you can check online
+
+### The wrong operating system may be recognized under winform, resulting in the nvme hard drive being unrecognizable.
+System configuration needs to be added to the manifest file app.manifest
 ![Uploading image.png…]()
 
 
 
 
-## 其它
+## Others
 
-有问题可以咨询我whyzi@qq.com
+If you have any questions, please contact me whyzi@qq.com
 
-## 参考项目
+## Reference project
 
 [crystaldiskinfo](https://github.com/hiyohiyo/CrystalDiskInfo)
