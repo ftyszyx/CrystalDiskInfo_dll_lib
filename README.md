@@ -6,7 +6,7 @@ The dll dynamic library of the CrystalDiskInfo project is encapsulated to facili
 
 ## Why do this?
 
-I am working on a software that needs to read the information of all hard disks connected to the computer (mainly hardware models and serial numbers). The project is developed using wpf.
+I am working on a software that needs to read the information of all hard disks connected to the computer (disk model name and serial numbers). The project is developed using wpf.
 Originally I used the wmi interface of C# to obtain it. The code is as follows:
 ```
 ManagementObjectSearcher moSearcher = new ManagementObjectSearcher("SELECT * FROM Win32_DiskDrive");
@@ -15,13 +15,10 @@ foreach (var mo in moSearcher.Get())
 var diskinfo = new DiskInfo();
 diskinfo.device_name = mo["Model"].ToString();
 diskinfo.searial_num = mo["SerialNumber"].ToString();
-diskinfo.is_cur_disk = false;
-if (Convert.ToInt16(mo["Index"]) == curdisk) diskinfo.is_cur_disk = true;
-_disk_list.Add(diskinfo);
 }
 ```
-But I found that only the hard disk with the stat interface can be correctly recognized. If the hard disk is connected through the nvme interface or USB, it cannot be recognized.
-I accidentally discovered that there is an open source software [crystaldiskinfo](https://github.com/hiyohiyo/CrystalDiskInfo) that can identify it very accurately. Yu Shi took a look at his code and found that it was written in C++. In addition to calling the wmi interface, there was also a lot of logic for interacting with the hardware driver.
+But I found that only the hard disk with the STAT interface can be correctly recognized. If the hard disk is connected through the nvme interface or USB interface, it cannot be recognized correctly.
+I accidentally discovered that there is an open source software [crystaldiskinfo](https://github.com/hiyohiyo/CrystalDiskInfo) that can identify it very accurately. took a look at his code and found that it was written in C++. In addition to calling the wmi interface, there was also a lot of logic for interacting with the hardware driver.
 So I thought, could I encapsulate crystaldiskinfo into a dll library for c# to call, so that the identification can be accurate. After referring to information on the Internet, I implemented this library.
 
 ## How to use dll
