@@ -32,3 +32,4 @@
 *.app
 /.vs
 /Build
+Release
