@@ -130,7 +130,7 @@ For details, you can check online
 
 ### The wrong operating system may be recognized under winform, resulting in the nvme hard drive being unrecognizable.
 System configuration needs to be added to the manifest file app.manifest
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/1bf7c682-b6ed-47cd-a41e-c1851b5de5c2)
 
 
 
