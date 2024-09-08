@@ -130,8 +130,7 @@ CrystalDiskInfo项目的dll动态库的封装，方便其它语言使用。
 
 ### winform下有可能会识别错操作系统，导致nvme硬盘无法识别
 需要在清单文件app.manifest增加系统配置
-![Uploading image.png…]()
-
+![image](https://github.com/user-attachments/assets/1bf7c682-b6ed-47cd-a41e-c1851b5de5c2)
 
 
 
