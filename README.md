@@ -254,6 +254,7 @@ static extern bool GetDiskInfo(IntPtr ptr, int index, ref SmartInfo info);
 [crystaldiskinfo](https://github.com/hiyohiyo/CrystalDiskInfo)
 
 ## 修改记录
+### 2024/9/21
 1. 新加获取smartinfo信息
 
    ```
