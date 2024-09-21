@@ -28,6 +28,9 @@ First download the compiled (dll) [https://github.com/ftyszyx/CrystalDiskInfo_dl
 ### Import interface
 
 ```
+[DllImport(dllname, CharSet = CharSet.Auto)]
+static extern bool GetDiskInfo(IntPtr ptr, int index, ref SmartInfo info);
+
 [DllImport(dllname, EntryPoint = "CreateAtaSmart", CallingConvention = CallingConvention.Cdecl )]
 static extern IntPtr CreateAtaSmart();
 
@@ -114,6 +117,114 @@ DestroyAtaSmart(smartPtr);
 }
 ```
 
+### get smartinfo
+
+#### define smartinfo struct
+```
+ [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi)]
+ public struct SmartInfo
+ {
+     public Int32 PhysicalDriveId;
+     public Int32 ScsiPort;
+     public Int32 ScsiTargetId;
+     public Int32 ScsiBus;
+     public Int32 SiliconImageType;
+     public UInt32 TotalDiskSize;
+     public UInt32 Cylinder;
+     public UInt32 Head;
+     public UInt32 Sector;
+     public UInt32 Sector28;
+     public UInt64 Sector48;
+     public UInt64 NumberOfSectors;
+     public UInt32 DiskSizeChs;
+     public UInt32 DiskSizeLba28;
+     public UInt32 DiskSizeLba48;
+     public UInt32 LogicalSectorSize;
+     public UInt32 PhysicalSectorSize;
+     public UInt32 DiskSizeWmi;
+     public UInt32 BufferSize;
+     public UInt64 NvCacheSize;
+     public UInt32 TransferModeType;
+     public UInt32 DetectedTimeUnitType;
+     public UInt32 MeasuredTimeUnitType;
+     public UInt32 AttributeCount;
+     public Int32 DetectedPowerOnHours;
+     public Int32 MeasuredPowerOnHours;
+     public Int32 PowerOnRawValue;
+     public Int32 PowerOnStartRawValue;
+     public UInt32 PowerOnCount;
+     public Int32 Temperature;
+     public double TemperatureMultiplier;
+     public UInt32 NominalMediaRotationRate;
+     public Int32 HostWrites;
+     public Int32 HostReads;
+     public Int32 GBytesErased;
+     public Int32 NandWrites;
+     public Int32 WearLevelingCount;
+     public Int32 Life;
+     public UInt32 Major;
+     public UInt32 Minor;
+     public UInt32 DiskStatus;
+     public UInt32 DriveLetterMap;
+     public Int32 AlarmTemperature;
+     public UInt32 DiskVendorId;
+     public UInt32 UsbVendorId;
+     public UInt32 UsbProductId;
+     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 512)]
+     public string SerialNumber;
+     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 512)]
+     public string SerialNumberReverse;
+     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 512)]
+     public string FirmwareRev;
+     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 512)]
+     public string FirmwareRevReverse;
+     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 512)]
+     public string Model;
+     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 512)]
+     public string ModelReverse;
+     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 512)]
+     public string ModelWmi;
+     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 512)]
+     public string ModelSerial;
+     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 512)]
+     public string DriveMap;
+     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 512)]
+     public string MaxTransferMode;
+     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 512)]
+     public string CurrentTransferMode;
+     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 512)]
+     public string MajorVersion;
+     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 512)]
+     public string MinorVersion;
+     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 512)]
+     public string Interface;
+     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 512)]
+     public string Enclosure;
+     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 512)]
+     public string CommandTypeString;
+     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 512)]
+     public string SsdVendorString;
+     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 512)]
+     public string DeviceNominalFormFactor;
+     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 512)]
+     public string PnpDeviceId;
+     [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 512)]
+     public string SmartKeyName;
+ }
+```
+
+#### getdisksmartinfo
+```
+ public static SmartInfo GetDiskInfo(int index)
+ {
+     if (smartPtr == IntPtr.Zero)
+         Init();
+     var info = new SmartInfo();
+     GetDiskInfo(smartPtr, index, ref info);
+     return info;
+ }
+```
+
 ## Compile yourself
 
 Use visual studio to open DiskInfo.sln and compile it yourself
@@ -138,6 +249,15 @@ System configuration needs to be added to the manifest file app.manifest
 ## Others
 
 If you have any questions, please contact me whyzi@qq.com
+
+## change record
+### 2024/9/21
+1. add samrtinfo export
+```
+[DllImport(dllname, CharSet = CharSet.Auto)]
+  static extern bool GetDiskInfo(IntPtr ptr, int index, ref SmartInfo info);
+
+```
 
 ## Reference project
 
